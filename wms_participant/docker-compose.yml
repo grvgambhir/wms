@@ -1,0 +1,8 @@
+# Local / VM demo of the Expo Web static build (same image as `docker build`).
+services:
+  web:
+    build: .
+    image: imga-athlete-poc:web
+    ports:
+      - "6041:80"
+    restart: unless-stopped

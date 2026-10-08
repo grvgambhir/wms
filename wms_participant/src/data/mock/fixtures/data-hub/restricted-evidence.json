@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "6a61b3fa-5867-4ad0-9d35-202700000001",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000004",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "type": "medical_certificate",
+      "label": "Medical certificate",
+      "required": true,
+      "status": "required",
+      "accessClassification": "restricted",
+      "accessPolicy": "Eligibility medical reviewers only"
+    },
+    {
+      "id": "6a61b3fa-5867-4ad0-9d35-202700000002",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000005",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "type": "para_classification",
+      "label": "Para-classification evidence",
+      "required": true,
+      "status": "required",
+      "accessClassification": "restricted",
+      "accessPolicy": "Authorised classification reviewers only"
+    }
+  ],
+  "total": 2
+}

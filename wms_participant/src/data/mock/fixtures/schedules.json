@@ -1,0 +1,45 @@
+[
+  {
+    "id": "schedule_daniel_training",
+    "eventId": "event_wmg_kansai_2027",
+    "athleteId": "athlete_daniel_harper",
+    "sportId": "sport_tennis",
+    "type": "training",
+    "title": "Training session",
+    "startAt": "2027-05-16T10:00:00+09:00",
+    "endAt": "2027-05-16T11:00:00+09:00",
+    "venueId": "venue_kansai_tennis",
+    "court": "Court 5"
+  },
+  {
+    "id": "schedule_daniel_match_001",
+    "eventId": "event_wmg_kansai_2027",
+    "athleteId": "athlete_daniel_harper",
+    "sportId": "sport_tennis",
+    "type": "match",
+    "title": "Match vs Müller / Schmidt",
+    "startAt": "2027-05-16T16:30:00+09:00",
+    "endAt": "2027-05-16T18:00:00+09:00",
+    "venueId": "venue_kansai_tennis",
+    "court": "Court 3",
+    "matchId": "match_tennis_demo_001"
+  },
+  {
+    "id": "schedule_daniel_social",
+    "eventId": "event_wmg_kansai_2027",
+    "athleteId": "athlete_daniel_harper",
+    "type": "social",
+    "title": "Athlete evening",
+    "startAt": "2027-05-16T19:00:00+09:00",
+    "venueId": "venue_kansai_athletics"
+  },
+  {
+    "id": "schedule_daniel_ceremony",
+    "eventId": "event_wmg_kansai_2027",
+    "athleteId": "athlete_daniel_harper",
+    "type": "ceremony",
+    "title": "Opening Ceremony",
+    "startAt": "2027-05-14T18:00:00+09:00",
+    "venueId": "venue_kansai_athletics"
+  }
+]

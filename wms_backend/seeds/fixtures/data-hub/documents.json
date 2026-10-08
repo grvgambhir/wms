@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "d9b25f16-5fc0-4b72-90e8-202700000001",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "registrationDraftId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "type": "passport_id",
+      "fileName": "Daniel_Harper_identity.pdf",
+      "status": "verified",
+      "uploadedAt": "2026-09-02T09:14:00.000Z",
+      "accessLevel": "standard"
+    }
+  ],
+  "total": 1
+}

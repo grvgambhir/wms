@@ -1,0 +1,22 @@
+[
+  {
+    "id": "notif_welcome_kansai",
+    "athleteId": "athlete_daniel_harper",
+    "eventId": "event_wmg_kansai_2027",
+    "title": "Welcome to WMG Kansai 2027",
+    "body": "Your accreditation is ready. Check GamesHub for your schedule.",
+    "type": "info",
+    "createdAt": "2027-05-13T09:00:00+09:00",
+    "read": false
+  },
+  {
+    "id": "notif_match_reminder",
+    "athleteId": "athlete_daniel_harper",
+    "eventId": "event_wmg_kansai_2027",
+    "title": "Match starting soon",
+    "body": "Your doubles match on Court 3 begins in 30 minutes.",
+    "type": "schedule_change",
+    "createdAt": "2027-05-16T09:30:00+09:00",
+    "read": false
+  }
+]

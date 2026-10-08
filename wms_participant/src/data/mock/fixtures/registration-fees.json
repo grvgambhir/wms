@@ -1,0 +1,12 @@
+[
+  {
+    "eventId": "event_wmg_kansai_2027",
+    "currency": "USD",
+    "entryFee": 45,
+    "serviceFee": 5,
+    "promoCodes": [
+      { "code": "EARLYBIRD", "discountAmount": 10, "label": "Early bird discount" },
+      { "code": "KANSAI2027", "discountAmount": 5, "label": "WMG Kansai 2027 promo" }
+    ]
+  }
+]

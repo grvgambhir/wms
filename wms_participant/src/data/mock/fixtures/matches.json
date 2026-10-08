@@ -1,0 +1,27 @@
+[
+  {
+    "id": "match_tennis_demo_001",
+    "eventId": "event_wmg_kansai_2027",
+    "sportId": "sport_tennis",
+    "categoryId": "category_tennis_md_40_44",
+    "venueId": "venue_ksg_tennis_center",
+    "court": "Court 3",
+    "round": "Round 1",
+    "status": "scheduled",
+    "sideA": {
+      "id": "side_harper_rossi",
+      "displayName": "Harper / Rossi",
+      "athleteIds": ["athlete_daniel_harper", "athlete_marco_rossi"],
+      "countryCodes": ["GB", "IT"]
+    },
+    "sideB": {
+      "id": "side_mueller_schmidt",
+      "displayName": "Müller / Schmidt",
+      "athleteIds": ["athlete_thomas_weber", "athlete_lars_nielsen"],
+      "countryCodes": ["DE", "DK"]
+    },
+    "scoreSummary": "Not started",
+    "sets": [],
+    "updatedAt": "2026-09-15T09:55:00-05:00"
+  }
+]

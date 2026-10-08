@@ -1,0 +1,1068 @@
+{
+  "items": [
+    {
+      "id": "acc-0001-4a10-9c01-202700000401",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "participantName": "Daniel Harper",
+      "nationalityCountryCode": "GB",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-09-03T08:10:00.000Z"
+    },
+    {
+      "id": "acc-0002-4a10-9c02-202700000402",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000002",
+      "participantName": "Marco Rossi",
+      "nationalityCountryCode": "IT",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-09-03T08:12:00.000Z"
+    },
+    {
+      "id": "acc-0003-4a10-9c03-202700000403",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000003",
+      "participantName": "Lucas Bianchi",
+      "nationalityCountryCode": "IT",
+      "sportName": "Rowing",
+      "role": "Athlete",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-09-03T08:15:00.000Z"
+    },
+    {
+      "id": "acc-0004-4a10-9c04-202700000404",
+      "participantName": "Elena Rossi",
+      "nationalityCountryCode": "IT",
+      "sportName": "Para Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-09-03T08:18:00.000Z"
+    },
+    {
+      "id": "acc-0005-4a10-9c05-202700000405",
+      "participantName": "Giulia Moretti",
+      "nationalityCountryCode": "IT",
+      "sportName": "Judo",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "badgeNumber": "COMO27-000101",
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "issuedAt": "2026-09-02T14:03:00.000Z",
+      "updatedAt": "2026-09-02T14:03:00.000Z"
+    },
+    {
+      "id": "acc-0006-4a10-9c06-202700000406",
+      "participantName": "Andrea Conti",
+      "nationalityCountryCode": "IT",
+      "sportName": "Basketball",
+      "role": "Team Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "athlete-lounge",
+        "officials"
+      ],
+      "badgeNumber": "COMO27-000102",
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "issuedAt": "2026-09-02T16:41:00.000Z",
+      "updatedAt": "2026-09-02T16:41:00.000Z"
+    },
+    {
+      "id": "acc-0007-4a10-9c07-202700000407",
+      "participantName": "Paolo Conti",
+      "nationalityCountryCode": "IT",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "revoked",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "badgeNumber": "COMO27-000098",
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "issuedAt": "2026-09-01T11:20:00.000Z",
+      "revokedReason": "Entry withdrawn — credential revoked",
+      "updatedAt": "2026-09-02T09:05:00.000Z"
+    },
+    {
+      "id": "acc-0008-4a10-9c08-202700000408",
+      "participantName": "Chiara Colombo",
+      "nationalityCountryCode": "IT",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-10T08:00:00.000Z"
+    },
+    {
+      "id": "acc-0009-4a10-9c09-202700000409",
+      "participantName": "Lorenzo Ricci",
+      "nationalityCountryCode": "IT",
+      "sportName": "Basketball",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-11T09:07:00.000Z"
+    },
+    {
+      "id": "acc-0010-4a10-9c10-202700000410",
+      "participantName": "Francesca Costa",
+      "nationalityCountryCode": "IT",
+      "sportName": "Rowing",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-12T10:14:00.000Z"
+    },
+    {
+      "id": "acc-0011-4a10-9c11-202700000411",
+      "participantName": "Alessandro Greco",
+      "nationalityCountryCode": "IT",
+      "sportName": "Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-13T11:21:00.000Z"
+    },
+    {
+      "id": "acc-0012-4a10-9c12-202700000412",
+      "participantName": "Valentina Esposito",
+      "nationalityCountryCode": "IT",
+      "sportName": "Para Swimming",
+      "role": "Team Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "athlete-lounge",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-14T12:28:00.000Z"
+    },
+    {
+      "id": "acc-0013-4a10-9c13-202700000413",
+      "participantName": "Davide Fontana",
+      "nationalityCountryCode": "IT",
+      "sportName": "Tennis",
+      "role": "Technical Official",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-15T13:35:00.000Z"
+    },
+    {
+      "id": "acc-0014-4a10-9c14-202700000414",
+      "participantName": "Martina Leone",
+      "nationalityCountryCode": "IT",
+      "sportName": "Basketball",
+      "role": "Games Staff",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "back-of-house",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-16T14:42:00.000Z"
+    },
+    {
+      "id": "acc-0015-4a10-9c15-202700000415",
+      "participantName": "Giovanni Barbieri",
+      "nationalityCountryCode": "IT",
+      "sportName": "Rowing",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-17T15:49:00.000Z"
+    },
+    {
+      "id": "acc-0016-4a10-9c16-202700000416",
+      "participantName": "Elisa Santoro",
+      "nationalityCountryCode": "IT",
+      "sportName": "Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-18T16:56:00.000Z"
+    },
+    {
+      "id": "acc-0017-4a10-9c17-202700000417",
+      "participantName": "Stefano Rinaldi",
+      "nationalityCountryCode": "IT",
+      "sportName": "Para Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-19T17:03:00.000Z"
+    },
+    {
+      "id": "acc-0018-4a10-9c18-202700000418",
+      "participantName": "Giorgia Caruso",
+      "nationalityCountryCode": "IT",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-20T08:10:00.000Z"
+    },
+    {
+      "id": "acc-0019-4a10-9c19-202700000419",
+      "participantName": "Nicola Ferrara",
+      "nationalityCountryCode": "IT",
+      "sportName": "Basketball",
+      "role": "Team Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "athlete-lounge",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-21T09:17:00.000Z"
+    },
+    {
+      "id": "acc-0020-4a10-9c20-202700000420",
+      "participantName": "Beatrice Gallo",
+      "nationalityCountryCode": "IT",
+      "sportName": "Rowing",
+      "role": "Technical Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-22T10:24:00.000Z"
+    },
+    {
+      "id": "acc-0021-4a10-9c21-202700000421",
+      "participantName": "Federico Romano",
+      "nationalityCountryCode": "IT",
+      "sportName": "Swimming",
+      "role": "Games Staff",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "back-of-house",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-23T11:31:00.000Z"
+    },
+    {
+      "id": "acc-0022-4a10-9c22-202700000422",
+      "participantName": "Serena De Luca",
+      "nationalityCountryCode": "IT",
+      "sportName": "Para Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-24T12:38:00.000Z"
+    },
+    {
+      "id": "acc-0023-4a10-9c23-202700000423",
+      "participantName": "Tommaso Marino",
+      "nationalityCountryCode": "IT",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-25T13:45:00.000Z"
+    },
+    {
+      "id": "acc-0024-4a10-9c24-202700000424",
+      "participantName": "Ilaria Contini",
+      "nationalityCountryCode": "IT",
+      "sportName": "Basketball",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-26T14:52:00.000Z"
+    },
+    {
+      "id": "acc-0025-4a10-9c25-202700000425",
+      "participantName": "Riccardo Bellini",
+      "nationalityCountryCode": "IT",
+      "sportName": "Rowing",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-27T15:59:00.000Z"
+    },
+    {
+      "id": "acc-0026-4a10-9c26-202700000426",
+      "participantName": "Camilla Vitale",
+      "nationalityCountryCode": "IT",
+      "sportName": "Swimming",
+      "role": "Team Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "athlete-lounge",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-10T16:06:00.000Z"
+    },
+    {
+      "id": "acc-0027-4a10-9c27-202700000427",
+      "participantName": "Enrico Palumbo",
+      "nationalityCountryCode": "IT",
+      "sportName": "Para Swimming",
+      "role": "Technical Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-11T17:13:00.000Z"
+    },
+    {
+      "id": "acc-0028-4a10-9c28-202700000428",
+      "participantName": "James Whitaker",
+      "nationalityCountryCode": "GB",
+      "sportName": "Tennis",
+      "role": "Games Staff",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "back-of-house",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-12T08:20:00.000Z"
+    },
+    {
+      "id": "acc-0029-4a10-9c29-202700000429",
+      "participantName": "Helen Cartwright",
+      "nationalityCountryCode": "GB",
+      "sportName": "Basketball",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-13T09:27:00.000Z"
+    },
+    {
+      "id": "acc-0030-4a10-9c30-202700000430",
+      "participantName": "Owen Pritchard",
+      "nationalityCountryCode": "GB",
+      "sportName": "Rowing",
+      "role": "Athlete",
+      "photoStatus": "rejected",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-14T10:34:00.000Z"
+    },
+    {
+      "id": "acc-0031-4a10-9c31-202700000431",
+      "participantName": "Claire O Neill",
+      "nationalityCountryCode": "IE",
+      "sportName": "Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-15T11:41:00.000Z"
+    },
+    {
+      "id": "acc-0032-4a10-9c32-202700000432",
+      "participantName": "Sophie Müller",
+      "nationalityCountryCode": "CH",
+      "sportName": "Para Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-16T12:48:00.000Z"
+    },
+    {
+      "id": "acc-0033-4a10-9c33-202700000433",
+      "participantName": "Hans Weber",
+      "nationalityCountryCode": "DE",
+      "sportName": "Tennis",
+      "role": "Team Official",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "athlete-lounge",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-17T13:55:00.000Z"
+    },
+    {
+      "id": "acc-0034-4a10-9c34-202700000434",
+      "participantName": "Ingrid Bergstrom",
+      "nationalityCountryCode": "SE",
+      "sportName": "Basketball",
+      "role": "Technical Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-18T14:02:00.000Z"
+    },
+    {
+      "id": "acc-0035-4a10-9c35-202700000435",
+      "participantName": "Lars Andersen",
+      "nationalityCountryCode": "NO",
+      "sportName": "Rowing",
+      "role": "Games Staff",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "back-of-house",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-19T15:09:00.000Z"
+    },
+    {
+      "id": "acc-0036-4a10-9c36-202700000436",
+      "participantName": "Pierre Dubois",
+      "nationalityCountryCode": "FR",
+      "sportName": "Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-20T16:16:00.000Z"
+    },
+    {
+      "id": "acc-0037-4a10-9c37-202700000437",
+      "participantName": "Marie Lefevre",
+      "nationalityCountryCode": "FR",
+      "sportName": "Para Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-21T17:23:00.000Z"
+    },
+    {
+      "id": "acc-0038-4a10-9c38-202700000438",
+      "participantName": "Pieter van Dijk",
+      "nationalityCountryCode": "NL",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-22T08:30:00.000Z"
+    },
+    {
+      "id": "acc-0039-4a10-9c39-202700000439",
+      "participantName": "Anna Kowalska",
+      "nationalityCountryCode": "PL",
+      "sportName": "Basketball",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-23T09:37:00.000Z"
+    },
+    {
+      "id": "acc-0040-4a10-9c40-202700000440",
+      "participantName": "Carlos Mendes",
+      "nationalityCountryCode": "PT",
+      "sportName": "Rowing",
+      "role": "Team Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "athlete-lounge",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-24T10:44:00.000Z"
+    },
+    {
+      "id": "acc-0041-4a10-9c41-202700000441",
+      "participantName": "Nikos Papadopoulos",
+      "nationalityCountryCode": "GR",
+      "sportName": "Swimming",
+      "role": "Technical Official",
+      "photoStatus": "rejected",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-25T11:51:00.000Z"
+    },
+    {
+      "id": "acc-0042-4a10-9c42-202700000442",
+      "participantName": "Eva Novak",
+      "nationalityCountryCode": "CZ",
+      "sportName": "Para Swimming",
+      "role": "Games Staff",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "back-of-house",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-26T12:58:00.000Z"
+    },
+    {
+      "id": "acc-0043-4a10-9c43-202700000443",
+      "participantName": "Katalin Nagy",
+      "nationalityCountryCode": "HU",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "submitted",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-27T13:05:00.000Z"
+    },
+    {
+      "id": "acc-0044-4a10-9c44-202700000444",
+      "participantName": "Matej Horvat",
+      "nationalityCountryCode": "HR",
+      "sportName": "Basketball",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "pending",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-10T14:12:00.000Z"
+    },
+    {
+      "id": "acc-0045-4a10-9c45-202700000445",
+      "participantName": "Ana Kovač",
+      "nationalityCountryCode": "SI",
+      "sportName": "Rowing",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "pending_review",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-11T15:19:00.000Z"
+    },
+    {
+      "id": "acc-0046-4a10-9c46-202700000446",
+      "participantName": "Hiroshi Sato",
+      "nationalityCountryCode": "JP",
+      "sportName": "Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-26T14:54:00.000Z",
+      "badgeNumber": "COMO27-000103",
+      "issuedAt": "2026-08-26T14:54:00.000Z"
+    },
+    {
+      "id": "acc-0047-4a10-9c47-202700000447",
+      "participantName": "Yuki Nakamura",
+      "nationalityCountryCode": "JP",
+      "sportName": "Para Swimming",
+      "role": "Team Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "athlete-lounge",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-27T14:57:00.000Z",
+      "badgeNumber": "COMO27-000104",
+      "issuedAt": "2026-08-27T14:57:00.000Z"
+    },
+    {
+      "id": "acc-0048-4a10-9c48-202700000448",
+      "participantName": "Min-jun Park",
+      "nationalityCountryCode": "KR",
+      "sportName": "Tennis",
+      "role": "Technical Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-20T14:00:00.000Z",
+      "badgeNumber": "COMO27-000105",
+      "issuedAt": "2026-08-20T14:00:00.000Z"
+    },
+    {
+      "id": "acc-0049-4a10-9c49-202700000449",
+      "participantName": "Wei Chen",
+      "nationalityCountryCode": "CN",
+      "sportName": "Basketball",
+      "role": "Games Staff",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "back-of-house",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-21T14:03:00.000Z",
+      "badgeNumber": "COMO27-000106",
+      "issuedAt": "2026-08-21T14:03:00.000Z"
+    },
+    {
+      "id": "acc-0050-4a10-9c50-202700000450",
+      "participantName": "Priya Sharma",
+      "nationalityCountryCode": "IN",
+      "sportName": "Rowing",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-22T14:06:00.000Z",
+      "badgeNumber": "COMO27-000107",
+      "issuedAt": "2026-08-22T14:06:00.000Z"
+    },
+    {
+      "id": "acc-0051-4a10-9c51-202700000451",
+      "participantName": "Kate Brennan",
+      "nationalityCountryCode": "AU",
+      "sportName": "Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-23T14:09:00.000Z",
+      "badgeNumber": "COMO27-000108",
+      "issuedAt": "2026-08-23T14:09:00.000Z"
+    },
+    {
+      "id": "acc-0052-4a10-9c52-202700000452",
+      "participantName": "Noah Williams",
+      "nationalityCountryCode": "NZ",
+      "sportName": "Para Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-24T14:12:00.000Z",
+      "badgeNumber": "COMO27-000109",
+      "issuedAt": "2026-08-24T14:12:00.000Z"
+    },
+    {
+      "id": "acc-0053-4a10-9c53-202700000453",
+      "participantName": "Michael Chen",
+      "nationalityCountryCode": "US",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-25T14:15:00.000Z",
+      "badgeNumber": "COMO27-000110",
+      "issuedAt": "2026-08-25T14:15:00.000Z"
+    },
+    {
+      "id": "acc-0054-4a10-9c54-202700000454",
+      "participantName": "Rachel Alvarez",
+      "nationalityCountryCode": "US",
+      "sportName": "Basketball",
+      "role": "Team Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "athlete-lounge",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-26T14:18:00.000Z",
+      "badgeNumber": "COMO27-000111",
+      "issuedAt": "2026-08-26T14:18:00.000Z"
+    },
+    {
+      "id": "acc-0055-4a10-9c55-202700000455",
+      "participantName": "Carlos Herrera",
+      "nationalityCountryCode": "MX",
+      "sportName": "Rowing",
+      "role": "Technical Official",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-27T14:21:00.000Z",
+      "badgeNumber": "COMO27-000112",
+      "issuedAt": "2026-08-27T14:21:00.000Z"
+    },
+    {
+      "id": "acc-0056-4a10-9c56-202700000456",
+      "participantName": "Lucia Ferreira",
+      "nationalityCountryCode": "BR",
+      "sportName": "Swimming",
+      "role": "Games Staff",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "back-of-house",
+        "officials"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-20T14:24:00.000Z",
+      "badgeNumber": "COMO27-000113",
+      "issuedAt": "2026-08-20T14:24:00.000Z"
+    },
+    {
+      "id": "acc-0057-4a10-9c57-202700000457",
+      "participantName": "Thabo Nkosi",
+      "nationalityCountryCode": "ZA",
+      "sportName": "Para Swimming",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "issued",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-21T14:27:00.000Z",
+      "badgeNumber": "COMO27-000114",
+      "issuedAt": "2026-08-21T14:27:00.000Z"
+    },
+    {
+      "id": "acc-0058-4a10-9c58-202700000458",
+      "participantName": "Isabel Navarro",
+      "nationalityCountryCode": "ES",
+      "sportName": "Tennis",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "revoked",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-22T09:50:00.000Z",
+      "badgeNumber": "COMO27-000115",
+      "issuedAt": "2026-08-12T11:50:00.000Z",
+      "revokedReason": "Entry withdrawn — credential revoked"
+    },
+    {
+      "id": "acc-0059-4a10-9c59-202700000459",
+      "participantName": "Javier Ortega",
+      "nationalityCountryCode": "ES",
+      "sportName": "Basketball",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "revoked",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-22T09:51:00.000Z",
+      "badgeNumber": "COMO27-000116",
+      "issuedAt": "2026-08-12T11:51:00.000Z",
+      "revokedReason": "Duplicate accreditation request — credential revoked"
+    },
+    {
+      "id": "acc-0060-4a10-9c60-202700000460",
+      "participantName": "Amelie Bauer",
+      "nationalityCountryCode": "AT",
+      "sportName": "Rowing",
+      "role": "Athlete",
+      "photoStatus": "approved",
+      "eligibilityStatus": "approved",
+      "status": "revoked",
+      "accessZones": [
+        "field-of-play",
+        "athlete-lounge"
+      ],
+      "validFrom": "2027-09-17",
+      "validUntil": "2027-09-26",
+      "updatedAt": "2026-08-22T09:52:00.000Z",
+      "badgeNumber": "COMO27-000117",
+      "issuedAt": "2026-08-12T11:52:00.000Z",
+      "revokedReason": "Entry withdrawn — credential revoked"
+    }
+  ],
+  "total": 60
+}

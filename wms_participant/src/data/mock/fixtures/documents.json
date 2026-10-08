@@ -1,0 +1,34 @@
+[
+  {
+    "id": "doc_athlete_daniel_harper_passport_id",
+    "athleteId": "athlete_daniel_harper",
+    "type": "passport_id",
+    "fileName": "UK_Passport_Harper_Daniel.pdf",
+    "status": "verified",
+    "uploadedAt": "2026-03-12T09:14:00.000Z"
+  },
+  {
+    "id": "doc_athlete_daniel_harper_dob_proof",
+    "athleteId": "athlete_daniel_harper",
+    "type": "dob_proof",
+    "fileName": "Birth_Certificate_Harper.pdf",
+    "status": "verified",
+    "uploadedAt": "2026-03-12T09:16:00.000Z"
+  },
+  {
+    "id": "doc_athlete_daniel_harper_medical_declaration",
+    "athleteId": "athlete_daniel_harper",
+    "type": "medical_declaration",
+    "fileName": "Medical_Declaration_2026.pdf",
+    "status": "verified",
+    "uploadedAt": "2026-04-02T11:05:00.000Z"
+  },
+  {
+    "id": "doc_athlete_daniel_harper_liability_waiver",
+    "athleteId": "athlete_daniel_harper",
+    "type": "liability_waiver",
+    "fileName": "WMS_Liability_Waiver_signed.pdf",
+    "status": "verified",
+    "uploadedAt": "2026-04-02T11:08:00.000Z"
+  }
+]

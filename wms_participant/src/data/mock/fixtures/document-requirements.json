@@ -1,0 +1,26 @@
+[
+  {
+    "eventId": "event_wmg_kansai_2027",
+    "type": "passport_id",
+    "label": "Passport or national ID",
+    "required": true
+  },
+  {
+    "eventId": "event_wmg_kansai_2027",
+    "type": "dob_proof",
+    "label": "Date of birth proof",
+    "required": true
+  },
+  {
+    "eventId": "event_wmg_kansai_2027",
+    "type": "medical_declaration",
+    "label": "Medical declaration",
+    "required": true
+  },
+  {
+    "eventId": "event_wmg_kansai_2027",
+    "type": "liability_waiver",
+    "label": "Liability waiver",
+    "required": true
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": "prereg-0001",
+      "reference": "COMO27-EOI-0001",
+      "firstName": "Daniel",
+      "lastName": "Harper",
+      "email": "daniel.harper@example.com",
+      "dateOfBirth": "1985-03-14",
+      "nationalityCountryCode": "GB",
+      "intendedSports": ["Tennis"],
+      "sourceList": "Legacy EOI 2025",
+      "status": "unclaimed",
+      "migratedAt": "2026-06-30T09:00:00.000Z"
+    },
+    {
+      "id": "prereg-0002",
+      "reference": "COMO27-EOI-0002",
+      "firstName": "Marco",
+      "lastName": "Rossi",
+      "email": "marco.rossi@example.com",
+      "dateOfBirth": "1988-09-22",
+      "nationalityCountryCode": "IT",
+      "intendedSports": ["Tennis", "Rowing"],
+      "sourceList": "Legacy EOI 2025",
+      "status": "unclaimed",
+      "migratedAt": "2026-06-30T09:00:00.000Z"
+    },
+    {
+      "id": "prereg-0003",
+      "reference": "COMO27-EOI-0003",
+      "firstName": "Giulia",
+      "lastName": "Moretti",
+      "email": "giulia.moretti@example.com",
+      "dateOfBirth": "1990-01-11",
+      "nationalityCountryCode": "IT",
+      "intendedSports": ["Judo"],
+      "sourceList": "Legacy EOI 2025",
+      "status": "claimed",
+      "migratedAt": "2026-06-30T09:00:00.000Z",
+      "claimedAt": "2026-08-15T10:30:00.000Z"
+    }
+  ],
+  "total": 3
+}

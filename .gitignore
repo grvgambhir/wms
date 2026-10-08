@@ -1,0 +1,110 @@
+# =============================================================================
+# WMS monorepo — ignore only generated / dependency / secret / huge binary noise.
+# Keep: source, docs/, prompts/, context_docs/, assets, PDFs, package-lock.json,
+#       .env.example, CI configs. No Git LFS required (largest tracked files ~4MB).
+# =============================================================================
+
+# ----- dependencies -----
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+jspm_packages/
+
+# ----- build / export outputs -----
+dist/
+build/
+out/
+web-build/
+*.tsbuildinfo
+
+# Next.js
+.next/
+.vercel/
+
+# Expo / Metro
+.expo/
+.expo-shared/
+expo-env.d.ts
+.metro-health-check*
+# Native prebuild trees (regenerate locally)
+**/ios/
+**/android/
+.kotlin/
+
+# Vite
+.vite/
+
+# ----- secrets / local env -----
+.env
+.env.*
+!.env.example
+!.env*.example
+credentials.json
+secrets.json
+*.pem
+*.key
+*.p8
+*.p12
+*.mobileprovision
+*.jks
+id_rsa
+id_rsa.pub
+
+# ----- logs / debug -----
+*.log
+logs/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# ----- test / coverage -----
+coverage/
+.nyc_output/
+**/test/.tmp-database-url
+
+# ----- caches -----
+.cache/
+.turbo/
+.parcel-cache/
+.eslintcache
+*.orig.*
+
+# ----- OS / editors -----
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+.idea/
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ----- scratch / local dumps (not product docs) -----
+tmp/
+*.iso
+*.dmg
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+# Large media dumps (keep images/PDFs in docs & assets)
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.ipa
+*.apk
+*.aab
+*.app
+
+# ----- generated Next types (recreated by next) -----
+next-env.d.ts

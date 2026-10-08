@@ -1,0 +1,15 @@
+Event and sport photos — Kansas Senior Games banner + Unsplash + World Masters Sport reference copies (POC demo).
+Downloaded/bundled Aug 2026; no runtime hotlinks.
+
+KSG / generic:
+- ksg-2026-hero.png — Kansas Senior Games official banner (copied from context_docs/event-details/Kansas26-scaled.png)
+- sports/tennis.jpg — Unsplash
+
+WMS catalog (from context_docs/event-details/, design reference):
+- assets/images/events/catalog/upcoming/*
+- assets/images/events/catalog/previous/*
+
+Brand:
+- brand/wms-logo-landscape-white.png — World Masters Sport official landscape wordmark (copied from context_docs/event-details/World-masters-sport-Logo_landscape_colour-white_RGB.png)
+
+IMGA wordmark in app (login) is a POC text badge — not an official IMGA trademark asset.

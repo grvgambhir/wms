@@ -1,0 +1,30 @@
+{
+  "name": "wms",
+  "private": true,
+  "scripts": {
+    "build:domain": "npm --prefix wms_domain run build",
+    "install:all": "npm --prefix wms_domain install && npm --prefix wms_admin install && npm --prefix wms_participant install && npm run install:backend",
+    "install:backend": "./scripts/node22.sh npm install",
+    "setup": "npm run install:all && npm run build:domain",
+    "dev:clean": "./scripts/dev-clean.sh",
+    "db:up": "npm --prefix wms_backend run db:up",
+    "db:down": "npm --prefix wms_backend run db:down",
+    "migrate": "./scripts/node22.sh npm run migrate:up",
+    "seed": "./scripts/node22.sh npm run seed",
+    "seed:reset": "./scripts/node22.sh npm run seed:reset",
+    "dev:clear-entries": "./scripts/node22.sh npm run dev:clear-entries --",
+    "test:backend": "./scripts/node22.sh npm run test",
+    "test:backend:load": "./scripts/node22.sh npm run test:load",
+    "typecheck:backend": "./scripts/node22.sh npm run typecheck",
+    "build:backend": "./scripts/node22.sh npm run build",
+    "lint:backend": "./scripts/node22.sh npm run lint",
+    "dev:backend": "npm run db:up && ./scripts/node22.sh npm run dev",
+    "dev:admin": "npm --prefix wms_admin run dev",
+    "dev:web": "npm --prefix wms_participant run web",
+    "dev:native": "npm --prefix wms_participant run start",
+    "dev": "npm run build:domain && concurrently --restart-tries 10 --restart-after 3000 -n backend,admin,web -c yellow,cyan,magenta \"npm run dev:backend\" \"npm run dev:admin\" \"npm run dev:web\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": "846c3118-8c44-4bb4-a861-202700000001",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "currency": "EUR",
+      "subtotalAmountMinor": 9000,
+      "serviceAmountMinor": 0,
+      "totalAmountMinor": 9000,
+      "status": "draft",
+      "paymentId": "957ab267-b7f4-4207-94a2-202700000001",
+      "createdAt": "2026-09-03T07:30:00.000Z",
+      "updatedAt": "2026-09-03T07:30:00.000Z"
+    }
+  ],
+  "total": 1
+}

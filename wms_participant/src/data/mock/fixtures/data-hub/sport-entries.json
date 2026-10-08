@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "6cf1db22-2605-4d83-bfa4-202700000001",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000001",
+      "name": "Men's Doubles",
+      "participantType": "doubles",
+      "ruleId": "eb754330-18ac-4a72-83f1-202700000001",
+      "allowedGrades": ["competitive", "recreational"],
+      "partnerRequired": true,
+      "requiresEvidence": false
+    },
+    {
+      "id": "6cf1db22-2605-4d83-bfa4-202700000002",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000002",
+      "name": "Men's Team",
+      "participantType": "team",
+      "ruleId": "eb754330-18ac-4a72-83f1-202700000002",
+      "allowedGrades": ["competitive", "recreational"],
+      "partnerRequired": true,
+      "requiresEvidence": false
+    },
+    {
+      "id": "6cf1db22-2605-4d83-bfa4-202700000003",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000003",
+      "name": "Coxed Four",
+      "participantType": "crew",
+      "ruleId": "eb754330-18ac-4a72-83f1-202700000003",
+      "allowedGrades": ["competitive"],
+      "partnerRequired": true,
+      "requiresEvidence": false
+    },
+    {
+      "id": "6cf1db22-2605-4d83-bfa4-202700000004",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000004",
+      "name": "100m Freestyle",
+      "participantType": "individual",
+      "ruleId": "eb754330-18ac-4a72-83f1-202700000004",
+      "allowedGrades": ["competitive"],
+      "partnerRequired": false,
+      "requiresEvidence": true
+    },
+    {
+      "id": "6cf1db22-2605-4d83-bfa4-202700000005",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000005",
+      "name": "100m Freestyle",
+      "participantType": "individual",
+      "ruleId": "eb754330-18ac-4a72-83f1-202700000005",
+      "allowedGrades": ["competitive"],
+      "partnerRequired": false,
+      "requiresEvidence": true
+    }
+  ],
+  "total": 5
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    { "id": "T-101", "team": "Harper / Rossi", "roster": [
+      { "id": "a", "name": "D. Harper", "dob": "1985-03-15" },
+      { "id": "b", "name": "M. Rossi", "dob": "1988-09-22" }
+    ] },
+    { "id": "T-102", "team": "Harper / Bianchi", "roster": [
+      { "id": "a", "name": "D. Harper", "dob": "1985-03-15" },
+      { "id": "b", "name": "L. Bianchi", "dob": "1994-06-10" }
+    ] },
+    { "id": "T-103", "team": "Neri / Conti", "roster": [
+      { "id": "a", "name": "P. Neri", "dob": "1983-06-01" },
+      { "id": "b", "name": "R. Conti", "dob": "1981-06-01" }
+    ] },
+    { "id": "T-104", "team": "Ricci / Marino", "roster": [
+      { "id": "a", "name": "L. Ricci", "dob": "1987-06-01" },
+      { "id": "b", "name": "G. Marino", "dob": "1985-06-01" }
+    ] },
+    { "id": "T-105", "team": "Gallo / Fontana", "roster": [
+      { "id": "a", "name": "S. Gallo", "dob": "1982-06-01" },
+      { "id": "b", "name": "F. Fontana", "dob": "1979-06-01" }
+    ] }
+  ]
+}

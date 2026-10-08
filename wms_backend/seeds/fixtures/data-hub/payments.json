@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": "957ab267-b7f4-4207-94a2-202700000001",
+      "orderId": "846c3118-8c44-4bb4-a861-202700000001",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "amountMinor": 9000,
+      "currency": "EUR",
+      "method": "card",
+      "status": "pending",
+      "idempotencyKey": "1828919d-49ab-4f0d-aa96-202700000001",
+      "attemptCount": 0,
+      "chargeCount": 0,
+      "createdAt": "2026-09-03T07:30:00.000Z",
+      "updatedAt": "2026-09-03T07:30:00.000Z"
+    }
+  ],
+  "total": 1
+}

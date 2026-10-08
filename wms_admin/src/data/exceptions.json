@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "id": "EXC-1",
+      "participant": "M. Tanaka (JPN)",
+      "sport": "Judo",
+      "event": "Men's −81 kg",
+      "impact": "high",
+      "reason": "Minimum grade not met — competitive-experience waiver requested.",
+      "checks": [
+        {
+          "label": "Age",
+          "ok": true,
+          "detail": "38 · meets ≥30 (ref 31 Dec 2027)"
+        },
+        {
+          "label": "Weight",
+          "ok": true,
+          "detail": "79.5 kg · within −81 kg"
+        },
+        {
+          "label": "Federation membership",
+          "ok": true,
+          "detail": "Valid licence on file"
+        },
+        {
+          "label": "Belt / grade",
+          "ok": false,
+          "detail": "2nd Kyu · minimum 1st Kyu required"
+        }
+      ]
+    },
+    {
+      "id": "EXC-2",
+      "participant": "A. Bianchi (ITA)",
+      "sport": "Para-Swimming",
+      "event": "S9 · 100m Freestyle",
+      "impact": "standard",
+      "restricted": true,
+      "reason": "Sport-class S9 evidence submitted — reviewer confirmation required."
+    },
+    {
+      "id": "EXC-3",
+      "participant": "R. Meyer (GER)",
+      "sport": "Cycling",
+      "event": "Road Race",
+      "impact": "high",
+      "reason": "Category override 45–49 → 40–44 requested (documented racing-age licence)."
+    },
+    {
+      "id": "EXC-4",
+      "participant": "E. Santoro (IT)",
+      "sport": "Tennis",
+      "event": "Men's Singles",
+      "impact": "high",
+      "reason": "Minimum competitive experience not evidenced — waiver requested against federation licence history.",
+      "checks": [
+        {
+          "label": "Age",
+          "ok": true,
+          "detail": "43 · meets ≥30 (ref 31 Dec 2027)"
+        },
+        {
+          "label": "Federation membership",
+          "ok": true,
+          "detail": "Valid licence on file"
+        },
+        {
+          "label": "Category",
+          "ok": false,
+          "detail": "Requested band sits outside the published table"
+        }
+      ]
+    },
+    {
+      "id": "EXC-5",
+      "participant": "S. Rinaldi (IT)",
+      "sport": "Swimming",
+      "event": "100m Freestyle",
+      "impact": "standard",
+      "reason": "Age-band boundary case — racing age on 31 Dec 2027 sits one day inside the younger band."
+    },
+    {
+      "id": "EXC-6",
+      "participant": "G. Caruso (IT)",
+      "sport": "Rowing",
+      "event": "Coxed Four",
+      "impact": "high",
+      "reason": "Crew substitution after lock — replacement rower is one year younger than the published band."
+    },
+    {
+      "id": "EXC-7",
+      "participant": "N. Ferrara (IT)",
+      "sport": "Swimming",
+      "event": "50m Freestyle",
+      "impact": "standard",
+      "reason": "Medical certificate issued by a non-listed clinic — reviewer confirmation required.",
+      "restricted": true
+    },
+    {
+      "id": "EXC-8",
+      "participant": "B. Gallo (IT)",
+      "sport": "Para Swimming",
+      "event": "S9 · 100m Freestyle",
+      "impact": "standard",
+      "reason": "Sport-class review pack submitted — classification evidence needs OC confirmation.",
+      "restricted": true
+    },
+    {
+      "id": "EXC-9",
+      "participant": "F. Romano (IT)",
+      "sport": "Basketball",
+      "event": "Men's Team",
+      "impact": "high",
+      "reason": "Team roster exceeds published maximum after a late medical withdrawal replacement."
+    },
+    {
+      "id": "EXC-10",
+      "participant": "S. De Luca (IT)",
+      "sport": "Tennis",
+      "event": "Women's Doubles",
+      "impact": "standard",
+      "reason": "Doubles partner nationality mismatch vs the published mixed-nation ruling."
+    },
+    {
+      "id": "EXC-11",
+      "participant": "T. Marino (IT)",
+      "sport": "Tennis",
+      "event": "Men's Doubles",
+      "impact": "high",
+      "reason": "Category override requested after a documented licence-age correction."
+    },
+    {
+      "id": "EXC-12",
+      "participant": "I. Contini (IT)",
+      "sport": "Swimming",
+      "event": "200m Freestyle",
+      "impact": "standard",
+      "reason": "Proof of identity issued under a previous surname — marriage certificate attached."
+    },
+    {
+      "id": "EXC-13",
+      "participant": "R. Bellini (IT)",
+      "sport": "Tennis",
+      "event": "Men's Doubles",
+      "impact": "high",
+      "reason": "Youngest-member recalc after partner change would drop the pair a band; original category preservation requested.",
+      "checks": [
+        {
+          "label": "Age",
+          "ok": true,
+          "detail": "56 · meets ≥30 (ref 31 Dec 2027)"
+        },
+        {
+          "label": "Federation membership",
+          "ok": true,
+          "detail": "Valid licence on file"
+        },
+        {
+          "label": "Category",
+          "ok": false,
+          "detail": "Requested band sits outside the published table"
+        }
+      ]
+    },
+    {
+      "id": "EXC-14",
+      "participant": "C. Vitale (IT)",
+      "sport": "Rowing",
+      "event": "Coxless Pair",
+      "impact": "standard",
+      "reason": "Late evidence upload after the published cut-off — travel delay documented."
+    },
+    {
+      "id": "EXC-15",
+      "participant": "E. Palumbo (IT)",
+      "sport": "Para Swimming",
+      "event": "S10 · 50m Freestyle",
+      "impact": "standard",
+      "reason": "Para sport-class S10 evidence resubmitted after a protest window.",
+      "restricted": true
+    },
+    {
+      "id": "EXC-16",
+      "participant": "J. Whitaker (GB)",
+      "sport": "Rowing",
+      "event": "Coxed Four",
+      "impact": "high",
+      "reason": "Crew-average (excl. coxswain) sits 0.4 years under the published floor — rounding waiver requested.",
+      "checks": [
+        {
+          "label": "Age",
+          "ok": true,
+          "detail": "48 · meets ≥30 (ref 31 Dec 2027)"
+        },
+        {
+          "label": "Federation membership",
+          "ok": true,
+          "detail": "Valid licence on file"
+        },
+        {
+          "label": "Category",
+          "ok": false,
+          "detail": "Requested band sits outside the published table"
+        }
+      ]
+    },
+    {
+      "id": "EXC-17",
+      "participant": "H. Cartwright (GB)",
+      "sport": "Basketball",
+      "event": "Women's Team",
+      "impact": "standard",
+      "reason": "Federation membership card expired 11 days before the reference date; renewal receipt attached."
+    },
+    {
+      "id": "EXC-18",
+      "participant": "O. Pritchard (GB)",
+      "sport": "Swimming",
+      "event": "100m Freestyle",
+      "impact": "high",
+      "reason": "Weight-in simulation is 0.6 kg over the requested division; re-weigh waiver requested."
+    },
+    {
+      "id": "EXC-19",
+      "participant": "C. O Neill (IE)",
+      "sport": "Tennis",
+      "event": "Women's Singles",
+      "impact": "standard",
+      "reason": "Photo rejected once for background colour — replacement submitted."
+    },
+    {
+      "id": "EXC-20",
+      "participant": "S. Müller (CH)",
+      "sport": "Basketball",
+      "event": "Men's Team",
+      "impact": "standard",
+      "reason": "Team official accreditation requested against a player entry already in the system."
+    },
+    {
+      "id": "EXC-21",
+      "participant": "H. Weber (DE)",
+      "sport": "Swimming",
+      "event": "100m Freestyle",
+      "impact": "high",
+      "reason": "Relay aggregate age sits two years below the published band after a late substitution."
+    },
+    {
+      "id": "EXC-22",
+      "participant": "I. Bergstrom (SE)",
+      "sport": "Rowing",
+      "event": "Single Sculls",
+      "impact": "standard",
+      "reason": "Nationality change after passport renewal — both documents on file."
+    },
+    {
+      "id": "EXC-23",
+      "participant": "L. Andersen (NO)",
+      "sport": "Tennis",
+      "event": "Men's Singles",
+      "impact": "high",
+      "reason": "Minimum grade not met on the published register — competitive-result history offered as equivalent."
+    },
+    {
+      "id": "EXC-24",
+      "participant": "P. Dubois (FR)",
+      "sport": "Para Swimming",
+      "event": "S8 · 100m Freestyle",
+      "impact": "standard",
+      "reason": "Classification protest unresolved at national level — restricted pack for reviewer only.",
+      "restricted": true
+    }
+  ]
+}

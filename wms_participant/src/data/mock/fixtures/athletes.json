@@ -1,0 +1,95 @@
+[
+  {
+    "id": "athlete_daniel_harper",
+    "firstName": "Daniel",
+    "lastName": "Harper",
+    "dateOfBirth": "1984-05-14",
+    "nationalityCountryCode": "GB",
+    "gender": "male",
+    "email": "daniel.harper@email.com",
+    "phone": "+44 7700 900123",
+    "passportNumber": "123456789",
+    "profileImageKey": "danielHarper",
+    "emergencyContact": {
+      "name": "Sarah Harper",
+      "relationship": "Wife",
+      "phone": "+44 7700 900124"
+    }
+  },
+  {
+    "id": "athlete_marco_rossi",
+    "firstName": "Marco",
+    "lastName": "Rossi",
+    "dateOfBirth": "1985-02-11",
+    "nationalityCountryCode": "IT",
+    "gender": "male",
+    "email": "marco.rossi@example.com",
+    "phone": "+39 320 1234567",
+    "passportNumber": "YA1029384",
+    "emergencyContact": {
+      "name": "Giulia Rossi",
+      "relationship": "Sister",
+      "phone": "+39 320 7654321"
+    }
+  },
+  {
+    "id": "athlete_sophie_martin",
+    "firstName": "Sophie",
+    "lastName": "Martin",
+    "dateOfBirth": "1983-08-22",
+    "nationalityCountryCode": "FR",
+    "gender": "female",
+    "email": "sophie.martin@example.com",
+    "phone": "+33 6 12 34 56 78"
+  },
+  {
+    "id": "athlete_james_oneill",
+    "firstName": "James",
+    "lastName": "O'Neill",
+    "dateOfBirth": "1982-11-03",
+    "nationalityCountryCode": "IE",
+    "gender": "male",
+    "email": "james.oneill@example.com",
+    "phone": "+353 87 123 4567"
+  },
+  {
+    "id": "athlete_lars_nielsen",
+    "firstName": "Lars",
+    "lastName": "Nielsen",
+    "dateOfBirth": "1984-01-19",
+    "nationalityCountryCode": "DK",
+    "gender": "male",
+    "email": "lars.nielsen@example.com",
+    "phone": "+45 20 12 34 56"
+  },
+  {
+    "id": "athlete_peter_van_den_berg",
+    "firstName": "Peter",
+    "lastName": "van den Berg",
+    "dateOfBirth": "1983-06-30",
+    "nationalityCountryCode": "NL",
+    "gender": "male",
+    "email": "peter.vandenberg@example.com",
+    "phone": "+31 6 12345678"
+  },
+  {
+    "id": "athlete_carlos_mendez",
+    "firstName": "Carlos",
+    "lastName": "Mendez",
+    "dateOfBirth": "1985-04-12",
+    "nationalityCountryCode": "ES",
+    "gender": "male",
+    "email": "carlos.mendez@example.com",
+    "phone": "+34 612 345 678"
+  },
+  {
+    "id": "athlete_thomas_weber",
+    "firstName": "Thomas",
+    "lastName": "Weber",
+    "dateOfBirth": "1984-09-08",
+    "nationalityCountryCode": "DE",
+    "gender": "male",
+    "email": "thomas.weber@example.com",
+    "phone": "+49 170 1234567"
+  }
+]

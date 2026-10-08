@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:18-alpine
+    environment:
+      POSTGRES_USER: wms
+      POSTGRES_PASSWORD: wms_dev
+      POSTGRES_DB: wms_dev
+    ports: ["5433:5432"]
+    volumes:
+      # PG18 official image stores data under /var/lib/postgresql/<version>/docker,
+      # not /var/lib/postgresql/data (that mount now makes the container refuse to start).
+      - wms_pgdata:/var/lib/postgresql
+      - ./docker/init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U wms"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+volumes:
+  wms_pgdata:

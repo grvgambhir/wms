@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "name": "Open Masters Games Como Lake 2027",
+      "shortName": "Como Lake 2027",
+      "city": "Como · Lecco · Varese",
+      "country": "Italy",
+      "countryCode": "IT",
+      "startDate": "2027-09-17T00:00:00.000Z",
+      "endDate": "2027-09-26T21:59:59.000Z",
+      "registrationDeadline": "2027-06-30T21:59:59.000Z",
+      "status": "registration_open",
+      "featured": true,
+      "listingSection": "upcoming",
+      "listingOrder": 1,
+      "statusBanner": "Registration open",
+      "sportCount": 25,
+      "venueCount": "TBD",
+      "eventFamily": "Open Masters Games",
+      "heroTagline": "Sport, friendship and lifelong competition in Lombardy",
+      "heroSubtitle": "World Masters Sport",
+      "externalUrl": "https://www.worldmasterssport.com/about-the-masters-games/next-masters-games/como-lake-2027/",
+      "ctaLabel": "Register",
+      "registerable": true,
+      "sportIds": [
+        "9db23735-a6df-4d62-8f0c-202700000001",
+        "9db23735-a6df-4d62-8f0c-202700000002",
+        "9db23735-a6df-4d62-8f0c-202700000003",
+        "9db23735-a6df-4d62-8f0c-202700000004",
+        "9db23735-a6df-4d62-8f0c-202700000005"
+      ],
+      "description": "Open Masters Games across the provinces of Como, Lecco and Varese."
+    }
+  ],
+  "total": 1
+}

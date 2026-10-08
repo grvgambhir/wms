@@ -1,0 +1,7 @@
+# Monorepo: primary rules live in ../.gitignore
+
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+coverage/

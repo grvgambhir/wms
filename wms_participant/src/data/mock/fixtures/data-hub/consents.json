@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "id": "8c3e2a11-4b7d-4f01-9c2a-202700000101",
+      "participantId": "693edf31-739e-4f28-96c4-202700000001",
+      "kind": "terms_and_conditions",
+      "required": true,
+      "sensitive": false,
+      "status": "granted",
+      "policyVersion": "T&C v1.2",
+      "updatedAt": "2026-08-12T09:00:00.000Z",
+      "grantedAt": "2026-08-12T09:00:00.000Z"
+    },
+    {
+      "id": "8c3e2a11-4b7d-4f01-9c2a-202700000102",
+      "participantId": "693edf31-739e-4f28-96c4-202700000001",
+      "kind": "privacy_policy",
+      "required": true,
+      "sensitive": false,
+      "status": "granted",
+      "policyVersion": "Privacy v3.0",
+      "updatedAt": "2026-08-12T09:02:00.000Z",
+      "grantedAt": "2026-08-12T09:02:00.000Z"
+    },
+    {
+      "id": "8c3e2a11-4b7d-4f01-9c2a-202700000103",
+      "participantId": "693edf31-739e-4f28-96c4-202700000001",
+      "kind": "eligibility_medical_evidence",
+      "required": true,
+      "sensitive": true,
+      "status": "withdrawn",
+      "policyVersion": "Evidence processing v1.0",
+      "updatedAt": "2026-08-20T14:30:00.000Z",
+      "grantedAt": "2026-08-12T09:05:00.000Z",
+      "withdrawnAt": "2026-08-20T14:30:00.000Z"
+    },
+    {
+      "id": "8c3e2a11-4b7d-4f01-9c2a-202700000104",
+      "participantId": "693edf31-739e-4f28-96c4-202700000001",
+      "kind": "photo_media_accreditation",
+      "required": false,
+      "sensitive": false,
+      "status": "granted",
+      "policyVersion": "Media & accreditation v1.1",
+      "updatedAt": "2026-08-12T09:08:00.000Z",
+      "grantedAt": "2026-08-12T09:08:00.000Z"
+    },
+    {
+      "id": "8c3e2a11-4b7d-4f01-9c2a-202700000105",
+      "participantId": "693edf31-739e-4f28-96c4-202700000001",
+      "kind": "marketing_communications",
+      "required": false,
+      "sensitive": false,
+      "status": "withdrawn",
+      "policyVersion": "Marketing v2.0",
+      "updatedAt": "2026-08-12T09:10:00.000Z",
+      "withdrawnAt": "2026-08-12T09:10:00.000Z"
+    }
+  ],
+  "total": 5
+}

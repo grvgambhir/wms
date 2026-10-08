@@ -1,0 +1,79 @@
+{
+  "items": [
+    {
+      "id": "b79ee2ea-ad65-43c2-b54c-202700000001",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000001",
+      "capacity": 60,
+      "confirmed": 45,
+      "reserved": 0,
+      "status": "available",
+      "updatedAt": "2026-09-03T08:00:00.000Z"
+    },
+    {
+      "id": "b79ee2ea-ad65-43c2-b54c-202700000002",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000002",
+      "categoryId": "eb754330-18ac-4a72-83f1-202700000022",
+      "capacity": 60,
+      "confirmed": 60,
+      "reserved": 0,
+      "status": "full",
+      "updatedAt": "2026-09-03T08:00:00.000Z"
+    },
+    {
+      "id": "b79ee2ea-ad65-43c2-b54c-202700000003",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000003",
+      "categoryId": "eb754330-18ac-4a72-83f1-202700000033",
+      "capacity": 36,
+      "confirmed": 28,
+      "reserved": 0,
+      "status": "available",
+      "updatedAt": "2026-09-03T08:00:00.000Z"
+    },
+    {
+      "id": "b79ee2ea-ad65-43c2-b54c-202700000005",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000002",
+      "categoryId": "eb754330-18ac-4a72-83f1-202700000021",
+      "capacity": 52,
+      "confirmed": 48,
+      "reserved": 0,
+      "status": "available",
+      "updatedAt": "2026-09-03T08:00:00.000Z"
+    },
+    {
+      "id": "b79ee2ea-ad65-43c2-b54c-202700000006",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000003",
+      "categoryId": "eb754330-18ac-4a72-83f1-202700000032",
+      "capacity": 28,
+      "confirmed": 26,
+      "reserved": 0,
+      "status": "available",
+      "updatedAt": "2026-09-03T08:00:00.000Z"
+    },
+    {
+      "id": "b79ee2ea-ad65-43c2-b54c-202700000004",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000004",
+      "capacity": 120,
+      "confirmed": 72,
+      "reserved": 0,
+      "status": "available",
+      "updatedAt": "2026-09-03T08:00:00.000Z"
+    },
+    {
+      "id": "b79ee2ea-ad65-43c2-b54c-202700000007",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000005",
+      "capacity": 80,
+      "confirmed": 31,
+      "reserved": 0,
+      "status": "available",
+      "updatedAt": "2026-09-03T08:00:00.000Z"
+    }
+  ],
+  "total": 7
+}

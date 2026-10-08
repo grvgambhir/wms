@@ -1,0 +1,145 @@
+{
+  "items": [
+    {
+      "id": "eb754330-18ac-4a72-83f1-202700000001",
+      "sport": "Tennis",
+      "event": "Men's Doubles",
+      "strategy": "youngest-member",
+      "referenceDate": "2027-12-31",
+      "version": "v2.1",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "active",
+      "bands": [
+        { "id": "eb754330-18ac-4a72-83f1-202700000011", "name": "Men's Doubles 30–34", "minAge": 30, "maxAge": 34 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000012", "name": "Men's Doubles 35–39", "minAge": 35, "maxAge": 39 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000013", "name": "Men's Doubles 40–44", "minAge": 40, "maxAge": 44 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000014", "name": "Men's Doubles 45–49", "minAge": 45, "maxAge": 49 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000015", "name": "Men's Doubles 80+ Open", "minAge": 80, "maxAge": null }
+      ]
+    },
+    {
+      "id": "eb754330-18ac-4a72-83f1-202700000002",
+      "sport": "Basketball",
+      "event": "Men's Team",
+      "strategy": "youngest-member",
+      "referenceDate": "2027-12-31",
+      "version": "v2.1",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "active",
+      "bands": [
+        { "id": "eb754330-18ac-4a72-83f1-202700000021", "name": "Men's Team 30–34", "minAge": 30, "maxAge": 34 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000022", "name": "Men's Team 35–39", "minAge": 35, "maxAge": 39 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000023", "name": "Men's Team 40–49", "minAge": 40, "maxAge": 49 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000024", "name": "Men's Team 50+", "minAge": 50, "maxAge": null }
+      ]
+    },
+    {
+      "id": "eb754330-18ac-4a72-83f1-202700000003",
+      "sport": "Rowing",
+      "event": "Coxed Four",
+      "strategy": "crew-average",
+      "excludeRoles": ["coxswain"],
+      "rounding": "floor",
+      "referenceDate": "2027-12-31",
+      "version": "v2.1",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "active",
+      "bands": [
+        { "id": "eb754330-18ac-4a72-83f1-202700000031", "name": "Category A (27–35)", "minAge": 27, "maxAge": 35 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000032", "name": "Category B (36–42)", "minAge": 36, "maxAge": 42 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000033", "name": "Category C (43–49)", "minAge": 43, "maxAge": 49 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000034", "name": "Category D (50–54)", "minAge": 50, "maxAge": 54 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000035", "name": "Category E (55–59)", "minAge": 55, "maxAge": 59 }
+      ]
+    },
+    {
+      "id": "eb754330-18ac-4a72-83f1-202700000004",
+      "sport": "Swimming",
+      "event": "100m Freestyle",
+      "strategy": "individual",
+      "referenceDate": "2027-12-31",
+      "version": "v2.1",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "active",
+      "bands": [
+        { "id": "eb754330-18ac-4a72-83f1-202700000041", "name": "25–29", "minAge": 25, "maxAge": 29 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000042", "name": "30–34", "minAge": 30, "maxAge": 34 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000043", "name": "35–39", "minAge": 35, "maxAge": 39 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000044", "name": "40–44", "minAge": 40, "maxAge": 44 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000045", "name": "45–49", "minAge": 45, "maxAge": 49 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000046", "name": "50–54", "minAge": 50, "maxAge": 54 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000047", "name": "55–59", "minAge": 55, "maxAge": 59 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000048", "name": "100+", "minAge": 100, "maxAge": null }
+      ]
+    },
+    {
+      "id": "eb754330-18ac-4a72-83f1-202700000005",
+      "sport": "Para Swimming",
+      "event": "100m Freestyle",
+      "strategy": "individual",
+      "referenceDate": "2027-12-31",
+      "version": "v2.1",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "active",
+      "bands": [
+        { "id": "eb754330-18ac-4a72-83f1-202700000051", "name": "25–29", "minAge": 25, "maxAge": 29 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000052", "name": "30–34", "minAge": 30, "maxAge": 34 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000053", "name": "35–39", "minAge": 35, "maxAge": 39 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000054", "name": "40–44", "minAge": 40, "maxAge": 44 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000055", "name": "45–49", "minAge": 45, "maxAge": 49 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000056", "name": "50–54", "minAge": 50, "maxAge": 54 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000057", "name": "55–59", "minAge": 55, "maxAge": 59 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000058", "name": "100+", "minAge": 100, "maxAge": null }
+      ]
+    },
+    {
+      "id": "eb754330-18ac-4a72-83f1-202700000006",
+      "sport": "Swimming",
+      "event": "4x100m Relay",
+      "strategy": "relay-aggregate",
+      "referenceDate": "2027-12-31",
+      "version": "v2.1",
+      "effectiveDate": "2026-09-01T00:00:00.000Z",
+      "status": "active",
+      "bands": [
+        { "id": "eb754330-18ac-4a72-83f1-202700000061", "name": "100–119", "minAge": 100, "maxAge": 119 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000062", "name": "120–159", "minAge": 120, "maxAge": 159 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000063", "name": "160–199", "minAge": 160, "maxAge": 199 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000064", "name": "200–239", "minAge": 200, "maxAge": 239 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000065", "name": "240–279", "minAge": 240, "maxAge": 279 },
+        { "id": "eb754330-18ac-4a72-83f1-202700000066", "name": "280+", "minAge": 280, "maxAge": null }
+      ]
+    },
+    {
+      "id": "eb754330-18ac-4a72-83f1-202700000007",
+      "sport": "Judo",
+      "event": "Men's −81 kg",
+      "strategy": "individual",
+      "referenceDate": "2027-12-31",
+      "version": "v1.0 · Judo multi-dimension",
+      "effectiveDate": "2026-01-01T00:00:00.000Z",
+      "status": "active",
+      "dimensions": [
+        { "attribute": "age", "aggregation": "self", "rounding": "floor", "valueScale": 0, "bandKind": "range", "bands": [
+          { "id": "judo-30-34", "name": "Masters 30–34", "min": 30, "max": 34 },
+          { "id": "judo-35-39", "name": "Masters 35–39", "min": 35, "max": 39 },
+          { "id": "judo-40-44", "name": "Masters 40–44", "min": 40, "max": 44 },
+          { "id": "judo-45-plus", "name": "Masters 45+", "min": 45, "max": null }
+        ] },
+        { "attribute": "weight_kg", "aggregation": "self", "rounding": "none", "valueScale": 1, "bandKind": "range", "bands": [
+          { "id": "judo-under-81", "name": "−81 kg", "min": 0, "max": 81 }
+        ] },
+        { "attribute": "belt_rank", "aggregation": "self", "rounding": "none", "valueScale": 0, "bandKind": "enum", "bands": [
+          { "id": "judo-2dan-plus", "name": "2nd Dan or above", "codes": ["2dan", "3dan", "4dan", "5dan"] }
+        ] }
+      ],
+      "eligibility": [
+        { "predicate": "min_age", "params": { "min": 30 }, "messageKey": "eligibility.judo.age" },
+        { "predicate": "attribute_range", "params": { "attribute": "weight_kg", "max": 81 }, "messageKey": "eligibility.judo.weight" },
+        { "predicate": "attribute_in", "params": { "attribute": "belt_rank", "codes": ["2dan", "3dan", "4dan", "5dan"] }, "messageKey": "eligibility.judo.minimum_belt" },
+        { "predicate": "licence_valid", "params": { "attribute": "federation_licence" }, "messageKey": "eligibility.judo.federation_licence" }
+      ]
+    }
+  ],
+  "total": 7
+}

@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000001",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000001",
+      "grade": "competitive",
+      "currency": "EUR",
+      "baseAmountMinor": 9000,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000002",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000001",
+      "grade": "recreational",
+      "currency": "EUR",
+      "baseAmountMinor": 7500,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000003",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000002",
+      "categoryId": "eb754330-18ac-4a72-83f1-202700000022",
+      "grade": "competitive",
+      "currency": "EUR",
+      "baseAmountMinor": 12000,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000004",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000002",
+      "grade": "recreational",
+      "currency": "EUR",
+      "baseAmountMinor": 10000,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000005",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000003",
+      "categoryId": "eb754330-18ac-4a72-83f1-202700000033",
+      "grade": "competitive",
+      "currency": "EUR",
+      "baseAmountMinor": 11000,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000007",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000002",
+      "categoryId": "eb754330-18ac-4a72-83f1-202700000021",
+      "grade": "competitive",
+      "currency": "EUR",
+      "baseAmountMinor": 13500,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000008",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000003",
+      "categoryId": "eb754330-18ac-4a72-83f1-202700000032",
+      "grade": "competitive",
+      "currency": "EUR",
+      "baseAmountMinor": 12500,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000006",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000004",
+      "grade": "competitive",
+      "currency": "EUR",
+      "baseAmountMinor": 6500,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000009",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000005",
+      "grade": "competitive",
+      "currency": "EUR",
+      "baseAmountMinor": 7000,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "c8af61ce-6980-46d0-b391-202700000010",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000006",
+      "grade": "competitive",
+      "currency": "EUR",
+      "baseAmountMinor": 8500,
+      "serviceAmountMinor": 0,
+      "effectiveFrom": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "total": 10
+}

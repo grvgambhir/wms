@@ -1,0 +1,48 @@
+# This workflow is inert until wms_backend is initialized as its own Git repository.
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Test, typecheck, and build backend
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18-alpine
+        env:
+          POSTGRES_USER: wms
+          POSTGRES_PASSWORD: wms_dev
+          POSTGRES_DB: wms_dev
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U wms -d wms_dev"
+          --health-interval 3s
+          --health-timeout 3s
+          --health-retries 20
+    env:
+      DATABASE_URL: postgres://app_rw:wms_app@127.0.0.1:5432/wms_dev
+      DATABASE_OWNER_URL: postgres://wms:wms_dev@127.0.0.1:5432/wms_dev
+      RESTRICTED_DATABASE_URL: postgres://restricted_rw:wms_restricted@127.0.0.1:5432/wms_dev
+      PORT: '3050'
+      NODE_ENV: test
+      LOG_LEVEL: error
+      AUTH_PROVIDER: local
+      JWT_SECRET: test-jwt-secret-not-for-production-use
+      GIT_SHA: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run typecheck
+      - run: npm run build

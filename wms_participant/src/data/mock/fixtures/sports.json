@@ -1,0 +1,162 @@
+[
+  {
+    "id": "sport_tennis",
+    "name": "Tennis",
+    "iconKey": "tennis",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [
+      "discipline_tennis_mens_doubles",
+      "discipline_tennis_mens_singles",
+      "discipline_tennis_mixed_doubles"
+    ],
+    "availability": "available"
+  },
+  {
+    "id": "sport_badminton_ksg",
+    "name": "Badminton",
+    "iconKey": "badminton",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_basketball_shooting_ksg",
+    "name": "Basketball Shooting Skills",
+    "iconKey": "basketball",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_bowling_ksg",
+    "name": "Bowling",
+    "iconKey": "bowling",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_disc_golf_ksg",
+    "name": "Disc Golf",
+    "iconKey": "discGolf",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_golf_ksg",
+    "name": "Golf",
+    "iconKey": "golf",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_horseshoes_ksg",
+    "name": "Horseshoes",
+    "iconKey": "horseshoes",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_pickleball_ksg",
+    "name": "Pickleball",
+    "iconKey": "pickleball",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "almost_full"
+  },
+  {
+    "id": "sport_power_walk_ksg",
+    "name": "Power Walk",
+    "iconKey": "powerWalk",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_road_race_ksg",
+    "name": "Road Race (1 mile, 5K & 10K)",
+    "iconKey": "roadRace",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [
+      "discipline_road_race_1mile",
+      "discipline_road_race_5k",
+      "discipline_road_race_10k"
+    ],
+    "availability": "available"
+  },
+  {
+    "id": "sport_shooting_ksg",
+    "name": "Shooting (Trap & Skeet and Sporting Clays)",
+    "iconKey": "shooting",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_shuffleboard_ksg",
+    "name": "Shuffleboard",
+    "iconKey": "shuffleboard",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_swimming_ksg",
+    "name": "Swimming",
+    "iconKey": "swimming",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_table_tennis_ksg",
+    "name": "Table Tennis",
+    "iconKey": "tableTennis",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_track_field_ksg",
+    "name": "Track & Field",
+    "iconKey": "athletics",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_volleyball_ksg",
+    "name": "Volleyball",
+    "iconKey": "volleyball",
+    "eventId": "event_wmg_kansai_2027",
+    "disciplineIds": [],
+    "availability": "available"
+  },
+  {
+    "id": "sport_swimming_como",
+    "name": "Swimming",
+    "iconKey": "swimming",
+    "eventId": "event_omg_como_lake_2027",
+    "disciplineIds": ["discipline_swimming_freestyle"],
+    "availability": "almost_full"
+  },
+  {
+    "id": "sport_athletics",
+    "name": "Athletics",
+    "iconKey": "athletics",
+    "eventId": "event_omg_como_lake_2027",
+    "disciplineIds": ["discipline_athletics_sprint"],
+    "availability": "available"
+  },
+  {
+    "id": "sport_cycling",
+    "name": "Cycling",
+    "iconKey": "cycling",
+    "eventId": "event_omg_como_lake_2027",
+    "disciplineIds": ["discipline_cycling_road"],
+    "availability": "available"
+  }
+]

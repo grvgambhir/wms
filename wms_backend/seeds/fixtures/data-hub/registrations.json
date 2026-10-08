@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000001",
+      "partnerAthleteId": "693edf31-739e-4f28-96c4-202700000002",
+      "grade": "competitive",
+      "ruleId": "eb754330-18ac-4a72-83f1-202700000001",
+      "ruleVersion": "v2.1",
+      "originalCategoryId": "eb754330-18ac-4a72-83f1-202700000012",
+      "originalCategoryName": "Men's Doubles 35–39",
+      "currentCategoryId": "eb754330-18ac-4a72-83f1-202700000012",
+      "currentCategoryName": "Men's Doubles 35–39",
+      "evidenceStatus": "not_required",
+      "status": "draft",
+      "orderId": "846c3118-8c44-4bb4-a861-202700000001",
+      "waitlistId": "a68f21d0-2bc8-41a5-823e-202700000001",
+      "createdAt": "2026-09-03T07:30:00.000Z",
+      "updatedAt": "2026-09-03T07:30:00.000Z"
+    }
+  ],
+  "total": 1
+}

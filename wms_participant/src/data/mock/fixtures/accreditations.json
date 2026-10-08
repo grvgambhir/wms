@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ACCR-DEMO-000125",
+    "registrationId": "REG-DEMO-000124",
+    "athleteId": "athlete_daniel_harper",
+    "eventId": "event_wmg_kansai_2027",
+    "badgeNumber": "WMG-KANSAI-2027-004821",
+    "qrValue": "ACCR-DEMO-000125",
+    "accessLevel": "Athlete",
+    "validFrom": "2027-05-14",
+    "validUntil": "2027-05-30",
+    "status": "issued"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "category_tennis_md_35_39",
+    "disciplineId": "discipline_tennis_mens_doubles",
+    "name": "Men's Doubles 35–39",
+    "ageGroup": "35–39",
+    "entryType": "competitive",
+    "partnerRequired": true,
+    "quotaStatus": "available"
+  },
+  {
+    "id": "category_tennis_md_40_44",
+    "disciplineId": "discipline_tennis_mens_doubles",
+    "name": "Men's Doubles 40–44",
+    "ageGroup": "40–44",
+    "entryType": "competitive",
+    "partnerRequired": true,
+    "quotaStatus": "available"
+  },
+  {
+    "id": "category_tennis_md_40_44_rec",
+    "disciplineId": "discipline_tennis_mens_doubles",
+    "name": "Men's Doubles 40–44 Recreational",
+    "ageGroup": "40–44",
+    "entryType": "recreational",
+    "partnerRequired": true,
+    "quotaStatus": "available"
+  },
+  {
+    "id": "category_tennis_md_45_49",
+    "disciplineId": "discipline_tennis_mens_doubles",
+    "name": "Men's Doubles 45–49",
+    "ageGroup": "45–49",
+    "entryType": "competitive",
+    "partnerRequired": true,
+    "quotaStatus": "almost_full"
+  },
+  {
+    "id": "category_tennis_md_50_54",
+    "disciplineId": "discipline_tennis_mens_doubles",
+    "name": "Men's Doubles 50–54",
+    "ageGroup": "50–54",
+    "entryType": "competitive",
+    "partnerRequired": true,
+    "quotaStatus": "available"
+  },
+  {
+    "id": "category_tennis_md_55_59",
+    "disciplineId": "discipline_tennis_mens_doubles",
+    "name": "Men's Doubles 55–59",
+    "ageGroup": "55–59",
+    "entryType": "competitive",
+    "partnerRequired": true,
+    "quotaStatus": "available"
+  },
+  {
+    "id": "category_tennis_ms_40_44",
+    "disciplineId": "discipline_tennis_mens_singles",
+    "name": "Men's Singles 40–44",
+    "ageGroup": "40–44",
+    "entryType": "competitive",
+    "partnerRequired": false,
+    "quotaStatus": "available"
+  },
+  {
+    "id": "category_tennis_xd_40_44",
+    "disciplineId": "discipline_tennis_mixed_doubles",
+    "name": "Mixed Doubles 40–44",
+    "ageGroup": "40–44",
+    "entryType": "competitive",
+    "partnerRequired": true,
+    "quotaStatus": "available"
+  },
+  {
+    "id": "category_road_race_50_plus",
+    "disciplineId": "discipline_road_race_1mile",
+    "name": "50–59",
+    "ageGroup": "50–59",
+    "entryType": "recreational",
+    "partnerRequired": false,
+    "quotaStatus": "available"
+  },
+  {
+    "id": "category_road_race_60_plus",
+    "disciplineId": "discipline_road_race_1mile",
+    "name": "60+",
+    "ageGroup": "60+",
+    "entryType": "recreational",
+    "partnerRequired": false,
+    "quotaStatus": "available"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "f8b8077d-7845-4f04-8f8c-202700000001",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000002",
+      "name": "Como Lakers Masters",
+      "members": [
+        { "id": "45ce965e-bb18-47ad-9117-202700000001", "athleteId": "693edf31-739e-4f28-96c4-202700000001", "name": "Daniel Harper", "dob": "1985-03-15", "role": "captain" },
+        { "id": "45ce965e-bb18-47ad-9117-202700000002", "athleteId": "d0e9c836-a139-4e90-a557-202700000011", "name": "Andrea Conti", "dob": "1986-08-12", "role": "player" },
+        { "id": "45ce965e-bb18-47ad-9117-202700000003", "athleteId": "d0e9c836-a139-4e90-a557-202700000012", "name": "Matteo Ricci", "dob": "1987-11-04", "role": "player" },
+        { "id": "45ce965e-bb18-47ad-9117-202700000004", "athleteId": "d0e9c836-a139-4e90-a557-202700000013", "name": "Marco Rossi", "dob": "1988-09-22", "role": "player" },
+        { "id": "45ce965e-bb18-47ad-9117-202700000005", "athleteId": "d0e9c836-a139-4e90-a557-202700000014", "name": "Paolo Gallo", "dob": "1989-01-19", "role": "player" },
+        { "id": "45ce965e-bb18-47ad-9117-202700000006", "athleteId": "693edf31-739e-4f28-96c4-202700000003", "name": "Luca Bianchi", "dob": "1994-06-10", "role": "player" }
+      ],
+      "originalMemberIds": [
+        "45ce965e-bb18-47ad-9117-202700000001",
+        "45ce965e-bb18-47ad-9117-202700000002",
+        "45ce965e-bb18-47ad-9117-202700000003",
+        "45ce965e-bb18-47ad-9117-202700000004",
+        "45ce965e-bb18-47ad-9117-202700000005"
+      ],
+      "substituteMemberIds": ["45ce965e-bb18-47ad-9117-202700000006"],
+      "originalCategoryId": "eb754330-18ac-4a72-83f1-202700000022",
+      "originalCategoryName": "Men's Team 35–39",
+      "createdAt": "2026-09-03T07:30:00.000Z",
+      "updatedAt": "2026-09-03T07:30:00.000Z"
+    },
+    {
+      "id": "f8b8077d-7845-4f04-8f8c-202700000002",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000003",
+      "name": "Lario Masters Coxed Four",
+      "members": [
+        { "id": "a9bfd55e-c3c9-4e41-8cec-202700000001", "athleteId": "693edf31-739e-4f28-96c4-202700000001", "name": "Daniel Harper", "dob": "1981-03-15", "role": "rower" },
+        { "id": "a9bfd55e-c3c9-4e41-8cec-202700000002", "athleteId": "d0e9c836-a139-4e90-a557-202700000021", "name": "Alessandro Neri", "dob": "1982-07-08", "role": "rower" },
+        { "id": "a9bfd55e-c3c9-4e41-8cec-202700000003", "athleteId": "d0e9c836-a139-4e90-a557-202700000022", "name": "Stefano Romano", "dob": "1983-02-17", "role": "rower" },
+        { "id": "a9bfd55e-c3c9-4e41-8cec-202700000004", "athleteId": "d0e9c836-a139-4e90-a557-202700000023", "name": "Enzo Marino", "dob": "1984-05-26", "role": "rower" },
+        { "id": "a9bfd55e-c3c9-4e41-8cec-202700000005", "athleteId": "d0e9c836-a139-4e90-a557-202700000024", "name": "Fabio Sala", "dob": "1997-10-09", "role": "coxswain" },
+        { "id": "a9bfd55e-c3c9-4e41-8cec-202700000006", "athleteId": "d0e9c836-a139-4e90-a557-202700000025", "name": "Gianni Moretti", "dob": "1991-04-02", "role": "rower" }
+      ],
+      "originalMemberIds": [
+        "a9bfd55e-c3c9-4e41-8cec-202700000001",
+        "a9bfd55e-c3c9-4e41-8cec-202700000002",
+        "a9bfd55e-c3c9-4e41-8cec-202700000003",
+        "a9bfd55e-c3c9-4e41-8cec-202700000004",
+        "a9bfd55e-c3c9-4e41-8cec-202700000005"
+      ],
+      "substituteMemberIds": ["a9bfd55e-c3c9-4e41-8cec-202700000006"],
+      "originalCategoryId": "eb754330-18ac-4a72-83f1-202700000033",
+      "originalCategoryName": "Category C (43+)",
+      "createdAt": "2026-09-03T07:30:00.000Z",
+      "updatedAt": "2026-09-03T07:30:00.000Z"
+    }
+  ],
+  "total": 2
+}

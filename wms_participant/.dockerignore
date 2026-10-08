@@ -1,0 +1,21 @@
+# Keep the Docker build context small — only source needed for `expo export --platform web`.
+node_modules
+.git
+.github
+.expo
+dist
+web-build
+ios
+android
+.kotlin
+.cursor
+.claude
+context_docs
+docs
+*.md
+!README.md
+.DS_Store
+npm-debug.*
+yarn-error.*
+*.tsbuildinfo
+.env*.local

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "venue_kansai_tennis",
+    "eventId": "event_wmg_kansai_2027",
+    "name": "Nishinomiya Tennis Center",
+    "city": "Nishinomiya",
+    "address": "Nishinomiya, Hyogo, Japan"
+  },
+  {
+    "id": "venue_kansai_athletics",
+    "eventId": "event_wmg_kansai_2027",
+    "name": "Yanmar Stadium Nagai",
+    "city": "Osaka",
+    "address": "1-1 Nakanoshima, Nishi-ku, Osaka, Japan"
+  }
+]

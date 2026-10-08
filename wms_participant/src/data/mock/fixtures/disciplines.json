@@ -1,0 +1,72 @@
+[
+  {
+    "id": "discipline_tennis_mens_doubles",
+    "sportId": "sport_tennis",
+    "name": "Men's Doubles",
+    "participantType": "doubles",
+    "categoryIds": [
+      "category_tennis_md_35_39",
+      "category_tennis_md_40_44",
+      "category_tennis_md_40_44_rec",
+      "category_tennis_md_45_49",
+      "category_tennis_md_50_54",
+      "category_tennis_md_55_59"
+    ]
+  },
+  {
+    "id": "discipline_tennis_mens_singles",
+    "sportId": "sport_tennis",
+    "name": "Men's Singles",
+    "participantType": "individual",
+    "categoryIds": ["category_tennis_ms_40_44"]
+  },
+  {
+    "id": "discipline_tennis_mixed_doubles",
+    "sportId": "sport_tennis",
+    "name": "Mixed Doubles",
+    "participantType": "doubles",
+    "categoryIds": ["category_tennis_xd_40_44"]
+  },
+  {
+    "id": "discipline_swimming_freestyle",
+    "sportId": "sport_swimming_como",
+    "name": "Freestyle",
+    "participantType": "individual",
+    "categoryIds": []
+  },
+  {
+    "id": "discipline_athletics_sprint",
+    "sportId": "sport_athletics",
+    "name": "Sprint",
+    "participantType": "individual",
+    "categoryIds": []
+  },
+  {
+    "id": "discipline_cycling_road",
+    "sportId": "sport_cycling",
+    "name": "Road Race",
+    "participantType": "individual",
+    "categoryIds": []
+  },
+  {
+    "id": "discipline_road_race_1mile",
+    "sportId": "sport_road_race_ksg",
+    "name": "1 Mile",
+    "participantType": "individual",
+    "categoryIds": ["category_road_race_50_plus", "category_road_race_60_plus"]
+  },
+  {
+    "id": "discipline_road_race_5k",
+    "sportId": "sport_road_race_ksg",
+    "name": "5K",
+    "participantType": "individual",
+    "categoryIds": ["category_road_race_50_plus", "category_road_race_60_plus"]
+  },
+  {
+    "id": "discipline_road_race_10k",
+    "sportId": "sport_road_race_ksg",
+    "name": "10K",
+    "participantType": "individual",
+    "categoryIds": ["category_road_race_50_plus", "category_road_race_60_plus"]
+  }
+]

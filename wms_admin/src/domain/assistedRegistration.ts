@@ -1,0 +1,16 @@
+export type {
+  AssistedAuditAction,
+  AssistedConsentMethod,
+  AssistedMutationResponse,
+  AssistedOperator,
+  AssistedParticipant,
+  AssistedParticipantSource,
+  AssistedRegistrationOverview,
+  AssistedRegistrationSession,
+  AssistedRegistrationStatus,
+  PerformProxyActionInput,
+  ProxyAuditEntry,
+  ProxyConsentRecord,
+  ProxyRegistrationAction,
+  RecordProxyConsentInput,
+} from '@wms/domain';

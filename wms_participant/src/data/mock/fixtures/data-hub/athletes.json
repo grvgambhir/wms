@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": "693edf31-739e-4f28-96c4-202700000001",
+      "firstName": "Daniel",
+      "lastName": "Harper",
+      "dateOfBirth": "1985-03-15",
+      "nationalityCountryCode": "GB",
+      "gender": "male",
+      "email": "daniel.harper@example.com",
+      "phone": "+44 7700 900123",
+      "profileImageKey": "danielHarper",
+      "emergencyContact": {
+        "name": "Sarah Harper",
+        "relationship": "Wife",
+        "phone": "+44 7700 900124"
+      }
+    },
+    {
+      "id": "693edf31-739e-4f28-96c4-202700000002",
+      "firstName": "Marco",
+      "lastName": "Rossi",
+      "dateOfBirth": "1988-09-22",
+      "nationalityCountryCode": "IT",
+      "gender": "male",
+      "email": "marco.rossi@example.com",
+      "phone": "+39 320 1234567",
+      "emergencyContact": {
+        "name": "Giulia Rossi",
+        "relationship": "Sister",
+        "phone": "+39 320 7654321"
+      }
+    },
+    {
+      "id": "693edf31-739e-4f28-96c4-202700000003",
+      "firstName": "Luca",
+      "lastName": "Bianchi",
+      "dateOfBirth": "1994-06-10",
+      "nationalityCountryCode": "IT",
+      "gender": "male",
+      "email": "luca.bianchi@example.com"
+    }
+  ],
+  "total": 3
+}

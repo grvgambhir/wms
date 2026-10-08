@@ -1,0 +1,45 @@
+{
+  "items": [
+    {
+      "id": "9db23735-a6df-4d62-8f0c-202700000001",
+      "name": "Tennis",
+      "iconKey": "tennis",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "disciplineIds": ["6cf1db22-2605-4d83-bfa4-202700000001"],
+      "availability": "available"
+    },
+    {
+      "id": "9db23735-a6df-4d62-8f0c-202700000002",
+      "name": "Basketball",
+      "iconKey": "basketball",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "disciplineIds": ["6cf1db22-2605-4d83-bfa4-202700000002"],
+      "availability": "full"
+    },
+    {
+      "id": "9db23735-a6df-4d62-8f0c-202700000003",
+      "name": "Rowing",
+      "iconKey": "rowing",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "disciplineIds": ["6cf1db22-2605-4d83-bfa4-202700000003"],
+      "availability": "available"
+    },
+    {
+      "id": "9db23735-a6df-4d62-8f0c-202700000004",
+      "name": "Swimming",
+      "iconKey": "swimming",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "disciplineIds": ["6cf1db22-2605-4d83-bfa4-202700000004"],
+      "availability": "available"
+    },
+    {
+      "id": "9db23735-a6df-4d62-8f0c-202700000005",
+      "name": "Para Swimming",
+      "iconKey": "swimming",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "disciplineIds": ["6cf1db22-2605-4d83-bfa4-202700000005"],
+      "availability": "available"
+    }
+  ],
+  "total": 5
+}

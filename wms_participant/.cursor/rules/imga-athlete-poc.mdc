@@ -1,0 +1,73 @@
+---
+description: Como Lake 2027 (OARS) — stack, architecture, and product rules
+alwaysApply: true
+---
+
+# Como Lake 2027 — Registration & Games Management (OARS)
+
+> 🎯 Project pivoted to the **World Masters Sport / Como Lake 2027** RFP (REV-022). This app is being revised from an old athlete-only POC into **two responsive portals** (Participant + Admin "OC Command Centre") driven by a configurable **Masters rules engine**. The stack/architecture rules below still apply; scope comes from the Como docs.
+
+Read before implementing product behaviour (all under `context_docs/docs/`):
+- `START_HERE.md` — index/router (read first each session)
+- `PROGRESS_COMO2027.md` — current status / next task
+- `DELIVERY_PLAN_COMO2027.md` — scope, phases (P0/P1/P2+), tasks, acceptance
+- `BUSINESS_OVERVIEW_COMO2027.md` — business + screen map (§7)
+- `RFP_COMO2027.md` — contractual source of truth (RFP wins over mockups)
+- `REVISIONS.md` — approved plan/stack changes (latest `REV-###`)
+- `../../AGENTS.md` — primary engineering instructions
+
+## Source-of-truth priority
+When requirements conflict:
+1. `context_docs/docs/RFP_COMO2027.md`
+2. `context_docs/docs/BUSINESS_OVERVIEW_COMO2027.md` (screen map §7)
+3. `context_docs/docs/DELIVERY_PLAN_COMO2027.md`
+4. `context_docs/docs/ARCHITECTURE.md` (stack/layering)
+5. `context_docs/docs/DATA_MODEL.md` (entities — extend)
+6. `context_docs/docs/DESIGN_SYSTEM.md` (tokens/primitives — extend)
+7. `context_docs/docs/MOCK_DATA.md` (current fixtures only — transitional)
+
+New UI mockups (`context_docs/new_wmc_admin&athlete_screenshots/`) are AI-generated guides — **verify against the RFP; RFP wins on substance.** Do not invent product flows outside these files without approval.
+
+## Stack (mandatory)
+- React Native + Expo + TypeScript strict · Expo Router
+- **React Native Reusables** (UI primitives — incremental CLI add)
+- **NativeWind v4** (styling + WMS tokens) · TanStack Query · React Hook Form + Zod
+- AsyncStorage (temporary POC persistence only) · Expo Image/Document Picker
+
+## Architecture (non-negotiable)
+`Screen -> feature hook/use-case -> repository interface -> mock repository now / API repository later`
+- No direct JSON fixture imports from screens; no direct storage/API calls from UI.
+- Mock data behind typed repository/service interfaces; business logic outside presentational components.
+- Avoid `any`; explicit domain types. Reusable UI + centralized tokens.
+- **Backend-adaptable (mandatory):** every repository method = a future REST endpoint (GET/POST/PUT/DELETE) on a NestJS/FastAPI backend. JSON DTOs, stable IDs, ISO-8601 dates, EUR minor units, idempotency keys on payment/registration. Swap point = `src/data/providers/repositories.ts`. See `DELIVERY_PLAN_COMO2027.md` §6.6.
+
+## Masters rules engine (the core differentiator)
+- Rules are **configuration**, versioned + effective-dated + audited. Age reference date default **31 Dec 2027**. No silent reclassification (RUL series).
+- Patterns: individual bands, **youngest-member**, **crew-average (excl. coxswain)**, **relay-aggregate**, proficiency grade, judo multi-dimension, golf handicap, para class (restricted).
+- Engine = pure functions in `src/features/rules/*`, consumed via a `useRules` hook + `RulesRepository` interface. Every rule effect must be **visible on screen** (recalc, warning, impact analysis).
+
+## POC boundaries (D5)
+- No real backend, OTP provider, payment gateway, malware scanner, or scoring engine unless explicitly requested — mock behind interfaces.
+- Deterministic demo data: **Daniel Harper, Marco Rossi**, Como Lake 2027 (swimming/basketball/rowing/tennis). Seed = `DELIVERY_PLAN_COMO2027.md` §6.3.
+- Sensitive data (medical/para/ID) modelled **restricted** from day one.
+
+## Screens (Como two-portal — replaces the old A01–A18 flow)
+- **Participant Portal:** claim pre-reg → profile & consent → dynamic sport/event entry (live rule check) → evidence → partner/team roster → change-impact → checkout → waitlist offer → registration dashboard → digital accreditation → results.
+- **Admin OC Command Centre:** ops/SLA dashboard, exception queue (dual approval), sport rules configurator, finance reconciliation (P0); accreditation desk + comms center (P1).
+- Full screen map: `BUSINESS_OVERVIEW_COMO2027.md` §7. Build per `DELIVERY_PLAN_COMO2027.md` workstreams — do not build everything at once.
+
+## Language & accessibility (mandatory, not P1-only)
+- **English + Italian** on the demo path from P0 (RFP PLT-02). **WCAG 2.2 AA** (older users) — critical registration-path barriers are release blockers (ACS series).
+
+## Platform strategy: hybrid responsive, Expo Web first
+- One React Native codebase — no separate React/Vite app. Left-nav portal on desktop + usable mobile views from day one (D2).
+- Develop/review primarily on **Expo Web**; validate Android/iOS after each major batch. No DOM-only APIs in screens.
+
+## Progress and revisions (mandatory)
+- **Start each session:** read `context_docs/docs/START_HERE.md` + `PROGRESS_COMO2027.md` + `REVISIONS.md`.
+- **End each session:** update `PROGRESS_COMO2027.md`; log plan/stack changes in `REVISIONS.md` (new `REV-###`) before marking work done.
+
+## Definition of done (per screen)
+- Matches design system + portal shell · correct navigation · canonical seed data via repositories
+- Primary interaction + relevant states (loading/empty/error/pending/waitlisted/approved/etc.)
+- Responsive (desktop + mobile) · EN+IT on demo path · rule effects visible · no direct JSON import · strict TypeScript

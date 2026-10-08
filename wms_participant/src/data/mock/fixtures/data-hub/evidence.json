@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": "71c05f15-49c5-4b6d-8fc2-202700000001",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000004",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "type": "identity_document",
+      "label": "Identity document",
+      "required": true,
+      "status": "approved",
+      "fileName": "Daniel_Harper_identity.pdf",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 248320,
+      "mockUri": "mock://ordinary-evidence/71c05f15-49c5-4b6d-8fc2-202700000001",
+      "uploadedAt": "2026-09-02T09:14:00.000Z",
+      "reviewStartedAt": "2026-09-02T10:00:00.000Z",
+      "reviewedAt": "2026-09-02T10:06:00.000Z",
+      "reviewerDisplayName": "Eligibility desk"
+    },
+    {
+      "id": "71c05f15-49c5-4b6d-8fc2-202700000002",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "sportEntryProductId": "6cf1db22-2605-4d83-bfa4-202700000005",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "type": "identity_document",
+      "label": "Identity document",
+      "required": true,
+      "status": "approved",
+      "fileName": "Daniel_Harper_identity.pdf",
+      "mimeType": "application/pdf",
+      "fileSizeBytes": 248320,
+      "mockUri": "mock://ordinary-evidence/71c05f15-49c5-4b6d-8fc2-202700000002",
+      "uploadedAt": "2026-09-02T09:14:00.000Z",
+      "reviewStartedAt": "2026-09-02T10:00:00.000Z",
+      "reviewedAt": "2026-09-02T10:06:00.000Z",
+      "reviewerDisplayName": "Eligibility desk"
+    }
+  ],
+  "total": 2
+}

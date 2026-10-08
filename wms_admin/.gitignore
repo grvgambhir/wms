@@ -1,0 +1,13 @@
+# Monorepo: primary rules live in ../.gitignore
+
+node_modules/
+dist/
+.vite/
+.env
+.env.*
+!.env.example
+*.local
+*.log
+*.tsbuildinfo
+.DS_Store
+coverage/

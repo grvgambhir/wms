@@ -1,0 +1,13 @@
+# Monorepo: primary rules live in ../.gitignore
+# Kept so this package stays safe if opened alone.
+
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+*.tsbuildinfo
+test/.tmp-database-url
+coverage/

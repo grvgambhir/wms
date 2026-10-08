@@ -1,0 +1,119 @@
+---
+description: Project working guidelines — same source as .claude/claude.md
+alwaysApply: true
+---
+
+<!-- COMO2027-CURRENT-ENGAGEMENT -->
+> 🎯 **CURRENT ENGAGEMENT — Como Lake 2027.**
+> These working guidelines still apply as written. For project **scope / plan / progress**, the living docs are now `context_docs/docs/DELIVERY_PLAN_COMO2027.md` (plan) and `context_docs/docs/PROGRESS_COMO2027.md` (tracker); **start at** `context_docs/docs/START_HERE.md`.
+> Where the *Documentation Policy* below names `context_docs/docs/PROGRESS.md` or `PRODUCT.md`, read the **`*_COMO2027`** equivalents instead (REV-022, 2026-09-01).
+
+# Working Guidelines
+
+Source of truth: `.claude/claude.md`. Keep this rule identical to that file.
+
+General rules for how to work in this project. Project-specific architecture, stack, and product decisions live in `context_docs/` — not here.
+
+## Chat Control Keyword
+- If the user mentions "DWC" in chat, do not write code or make changes yet; respond with a plan and your understanding first, and wait for confirmation before implementation.
+
+## Model Switching — to save usage
+- I cannot change the session model myself — only the user can, via `/model`. So this is a **flag, not an action**: when the shape of the upcoming work changes, say so and suggest a switch, then keep going on the current model unless told otherwise.
+- **Suggest dropping to a lighter/cheaper model** when the next chunk is pattern-following: wiring an existing repository into a screen, repeating the established layout (domain → mock repo → hook → screen), fixture updates, design-token/UI primitive reuse, or copying a screen shape already proven elsewhere in the codebase.
+- **Suggest moving to a stronger model** when the next chunk touches **new domain boundaries**, a **new repository contract**, cross-screen registration state, navigation architecture, or anything where a wrong assumption would look correct on Expo Web but break the A01–A18 flow or future API migration.
+- State the suggestion plainly (what's next, why that model fits it) and let the user decide — don't act as if the switch already happened, and don't silently keep working on a mismatched model without mentioning it.
+
+## Communication Style — MANDATORY for every explanation
+
+**Layman Hinglish. SHORT.** Same as `~/.claude/CLAUDE.md` (user-level rule).
+
+**Default 3–8 lines.** Ye default hai, target nahi. Chhota sawaal → 2–3 lines. Kaam ho gaya → kya hua (2 lines) + file paths + testing command, bas. Lamba sirf tab jab user detail maange ya wo khud ek deliverable ho.
+
+**Kya nahi karna:** har reply me headers/tables (sirf tab jab cheezein compare ho rahi hon) · apni poori reasoning explain karna (natija do, tareeka nahi — puchhe to batao) · ek baat do baar · zaroorat se zyada bold/emoji · "Great question!" preamble.
+
+**Detail kahan jaati hai:** doc, code comment, REVISIONS — **chat me nahi.** Agar explanation lambi ho rahi hai, file me likho aur chat me ek line ka link do.
+
+**Technical detail** alag section me mat kaato — usi Hinglish line ke andar rakho: "status chhe jagah seedha likh raha tha — `foo.ts:324`. Ab ek writer se guzarta hai." Paths, commands, errors English me hi.
+
+## Fix Confidence — MANDATORY when diagnosing or proposing a fix
+- State a **confidence percentage (0–100%)** for every bug root-cause claim and every proposed or applied fix.
+- In one short line, say **what drives the number** (e.g. reproduced in terminal logs, code path traced, not yet verified on a physical device).
+- If confidence changes after implementation or testing, state the **updated percentage** and why it moved.
+- Use honest bands: **90–100%** = reproduced or directly verified; **70–89%** = strong code/log evidence, device test pending; **50–69%** = plausible but unverified; **below 50%** = hypothesis only — say what would raise it.
+
+## Code Documentation
+- When adding new code or files, include a short comment explaining why it exists or how it connects to the rest of the project
+- When modifying existing code, update or add comments so they stay accurate
+
+## Communication and Testing
+- If rebuilding the app (Metro/Xcode/Gradle) is needed, or if a clean/reinstall/restart is required, notify me
+- When implementing new features, always provide step-by-step testing instructions
+- Describe what should be visible/functional to verify correct implementation
+- Default POC review loop: **Expo Web first**, then Android/iOS after each major screen batch
+
+## Step Summary — MANDATORY whenever code or files are actually written
+**Applies only when something was built/changed** — code written, files created or edited, config or dependencies changed. For pure planning, discussion, analysis or Q&A replies, **do NOT append this summary** — just talk normally in layman Hinglish as per the Communication Style rule above.
+
+When a step *does* produce code/files, close the reply with a short **layman Hinglish** wrap-up. Short and scannable — not an essay, not a code dump:
+
+1. **Kya hua** — 2–4 lines, plain language, user perspective: what got built/changed and why it matters
+2. **Files kahan likhi gayi** — bullet list of the **main** files only, each with a one-line purpose (`path/to/file.ts` — ye kya karti hai). Skip trivial/touched-in-passing files
+3. **Testing steps (high level)** — numbered: what command to run, what to tap, what should be **visible on screen** to confirm it works. If nothing is visually testable yet (pure setup/config/plumbing), say so plainly and give the check that proves it instead (build passes, app boots, log line appears, test green)
+4. **Rebuild / restart needed?** — explicitly state if Metro restart, `expo prebuild`, native rebuild (Xcode/Gradle), clean install, or device reinstall is required. If nothing is needed, say "kuch rebuild nahi chahiye"
+
+**Duplication mat karo.** Agar reply me upar hi ye baatein saaf aa chuki hain, to Step Summary sirf wo hissa de jo abhi tak nahi kaha gaya (aam taur pe files list, testing steps, rebuild answer) — poori explanation dobara mat likho.
+
+## Documentation Policy
+- When planning or preparing summaries, **do not create ad-hoc .txt or .md files** unless explicitly asked
+- Keep casual chat summaries in the chat only
+- **Existing `context_docs/` files are the product/engineering source of truth** — read them before implementing; update them when product decisions change
+- **Mandatory living docs** (update every implementation session):
+  - `context_docs/docs/PROGRESS_COMO2027.md` — status tracker (what's done / in progress / remaining)
+  - `context_docs/docs/REVISIONS.md` — approved plan, stack, and architecture changes (`REV-###` entries)
+- **Plan or stack changes:** add `REVISIONS.md` entry first, then update `PROGRESS_COMO2027.md` and any affected docs (`DELIVERY_PLAN_COMO2027.md`, `ARCHITECTURE.md`, `DATA_MODEL.md`, `AGENTS.md`)
+- **The one exception for runtime docs is the Expo app `README.md`** (repo root once bootstrapped) — run/build/debug/clean. Do not create other ad-hoc docs (`NOTES.md`, `SETUP.md`, `CHANGELOG.md`) unless explicitly asked
+
+## README Maintenance — MANDATORY as the project grows
+The Expo app `README.md` is the single place anyone reads to understand how to run, build, debug and clean this app. It is **not** written once at the end — it is updated **in the same change** that introduces whatever it documents.
+
+**Update the README whenever a change introduces any of these:**
+- A **new command** anyone will need to run — build, test, clean, generate, migrate, deploy, seed
+- A **new tool or service** — a native dependency, an env var, an API base URL, an EAS profile, a CI step
+- A **new architectural decision** worth knowing before touching the code — layering rules, folder conventions, why an engine/library was chosen
+- A **new gotcha** — anything that cost real debugging time: a version requirement, an upstream bug, a misleading field name, a workaround and *why* it is needed
+- A **change that invalidates something already documented** — fix the existing section, never leave a stale command in place
+
+**How to write it:**
+- Commands go in copy-pasteable fenced blocks, with the directory they are run from made obvious
+- Every non-obvious command gets a one-line *why*, not just *what*
+- Prefer tables for anything a reader will scan (versions, when-to-rebuild, cleanup ladder)
+- Document **why** a decision was taken, so it can be revisited later with the original reasoning intact
+
+**Definition of done:** a step that adds a command, tool, dependency or gotcha is **not complete** until the README reflects it.
+
+When the Step Summary is produced, if the README was updated, list it among the files written.
+
+## Logging Guidelines
+- When adding debug logs or when asked to provide logs, use **one-liner log statements** instead of nested or multi-line logs
+- Keep logs simple and easy to read for better debugging experience
+- Example: prefer `console.log('Event:', event.id, 'Status:', status)` over nested object logs
+
+## User-facing text — POC scope
+**English + Italian ARE in scope** for Como Lake 2027 (RFP PLT-02) — demo path in P0, full catalogue in P1. Broader multi-locale i18n comes later (see `context_docs/docs/DELIVERY_PLAN_COMO2027.md` §6.1). Still:
+- Do **not** scatter user-visible strings randomly across screens
+- Centralize copy in a constants/i18n-ready module so localization can be added later without screen rewrites
+- When i18n is explicitly requested, add keys and locale files in the same change — never defer to a follow-up
+
+**Exceptions (no centralization required):**
+- `testID` / accessibility identifiers, log messages, comments, API field names
+- Demo data that must stay as returned by fixtures (e.g. player names, event titles from `MOCK_DATA.md`)
+
+## Git Commit Guidelines
+- **NEVER commit or push without explicit user confirmation**
+- **NEVER** include automated signatures, credits, or attribution in commit messages
+- Do not add: "🤖 Generated with [Claude Code]", "Co-Authored-By: Claude", or similar footers
+- Keep commit messages **product-level**: what exactly changed at product/feature level, not generic statements
+- Use this commit message format:
+  - Header: `<type>: <short summary>` (type is one of `feat`, `fix`, `add`, `refactor`, `perf`, `test`, `docs`, `build`, `ci`, `chore`, `revert`, `style`)
+  - Blank line
+  - Bulleted list of what changed (1 line each, imperative, concise)

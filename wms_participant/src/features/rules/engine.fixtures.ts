@@ -1,0 +1,101 @@
+import type { SportRule } from '@/domain/models/rule';
+
+/** Algorithm fixtures for engine tests. Not a live register — live rules come from Postgres. */
+export const ENGINE_RULES: SportRule[] = [
+  {
+    id: 'rule_swim_individual',
+    sport: 'Swimming',
+    event: 'Individual',
+    strategy: 'individual',
+    referenceDate: '2027-12-31',
+    version: 'v2.1',
+    effectiveDate: '2026-09-01',
+    status: 'active',
+    bands: [
+      { id: 'sw2529', name: '25–29', minAge: 25, maxAge: 29 },
+      { id: 'sw3034', name: '30–34', minAge: 30, maxAge: 34 },
+      { id: 'sw3539', name: '35–39', minAge: 35, maxAge: 39 },
+      { id: 'sw4044', name: '40–44', minAge: 40, maxAge: 44 },
+      { id: 'sw4549', name: '45–49', minAge: 45, maxAge: 49 },
+      { id: 'sw5054', name: '50–54', minAge: 50, maxAge: 54 },
+      { id: 'sw5559', name: '55–59', minAge: 55, maxAge: 59 },
+      { id: 'sw100', name: '100+', minAge: 100, maxAge: null },
+    ],
+  },
+  {
+    id: 'rule_tennis_doubles',
+    sport: 'Tennis',
+    event: "Men's Doubles",
+    strategy: 'youngest-member',
+    referenceDate: '2027-12-31',
+    version: 'v2.1',
+    effectiveDate: '2026-09-01',
+    status: 'active',
+    bands: [
+      { id: 'td3034', name: "Men's Doubles 30–34", minAge: 30, maxAge: 34 },
+      { id: 'td3539', name: "Men's Doubles 35–39", minAge: 35, maxAge: 39 },
+      { id: 'td4044', name: "Men's Doubles 40–44", minAge: 40, maxAge: 44 },
+      { id: 'td4549', name: "Men's Doubles 45–49", minAge: 45, maxAge: 49 },
+      { id: 'td80', name: "Men's Doubles 80+ Open", minAge: 80, maxAge: null },
+    ],
+  },
+  {
+    id: 'rule_basketball_team',
+    sport: 'Basketball',
+    event: "Men's Team",
+    strategy: 'youngest-member',
+    referenceDate: '2027-12-31',
+    version: 'v2.1',
+    effectiveDate: '2026-09-01',
+    status: 'active',
+    bands: [
+      { id: 'bk3039', name: '30–39', minAge: 30, maxAge: 39 },
+      { id: 'bk4049', name: '40–49', minAge: 40, maxAge: 49 },
+      { id: 'bk5059', name: '50–59', minAge: 50, maxAge: 59 },
+      { id: 'bk60', name: '60+', minAge: 60, maxAge: null },
+    ],
+  },
+  {
+    id: 'rule_rowing_coxed_four',
+    sport: 'Rowing',
+    event: 'Coxed Four',
+    strategy: 'crew-average',
+    excludeRoles: ['coxswain'],
+    rounding: 'floor',
+    referenceDate: '2027-12-31',
+    version: 'v2.1',
+    effectiveDate: '2026-09-01',
+    status: 'active',
+    bands: [
+      { id: 'rwA', name: 'Category A (27–35)', minAge: 27, maxAge: 35 },
+      { id: 'rwB', name: 'Category B (36–42)', minAge: 36, maxAge: 42 },
+      { id: 'rwC', name: 'Category C (43–49)', minAge: 43, maxAge: 49 },
+      { id: 'rwD', name: 'Category D (50–54)', minAge: 50, maxAge: 54 },
+      { id: 'rwE', name: 'Category E (55–59)', minAge: 55, maxAge: 59 },
+    ],
+  },
+  {
+    id: 'rule_swim_relay',
+    sport: 'Swimming',
+    event: '4×50 Freestyle Relay',
+    strategy: 'relay-aggregate',
+    referenceDate: '2027-12-31',
+    version: 'v2.1',
+    effectiveDate: '2026-09-01',
+    status: 'active',
+    bands: [
+      { id: 'rl100', name: '100–119', minAge: 100, maxAge: 119 },
+      { id: 'rl120', name: '120–159', minAge: 120, maxAge: 159 },
+      { id: 'rl160', name: '160–199', minAge: 160, maxAge: 199 },
+      { id: 'rl200', name: '200–239', minAge: 200, maxAge: 239 },
+      { id: 'rl240', name: '240–279', minAge: 240, maxAge: 279 },
+      { id: 'rl280', name: '280+', minAge: 280, maxAge: null },
+    ],
+  },
+];
+
+export function engineRuleById(id: string): SportRule {
+  const rule = ENGINE_RULES.find((item) => item.id === id);
+  if (!rule) throw new Error(`Missing engine fixture rule: ${id}`);
+  return rule;
+}

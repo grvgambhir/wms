@@ -1,0 +1,369 @@
+{
+  "segments": [
+    {
+      "id": "all-participants",
+      "recipientCount": 1284
+    },
+    {
+      "id": "pending-payment",
+      "recipientCount": 213
+    },
+    {
+      "id": "incomplete-documents",
+      "recipientCount": 96
+    },
+    {
+      "id": "confirmed",
+      "recipientCount": 871
+    },
+    {
+      "id": "tennis",
+      "recipientCount": 184
+    },
+    {
+      "id": "rowing",
+      "recipientCount": 152
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl-payment-reminder",
+      "name": "Payment reminder",
+      "subjectEn": "Complete your Como Lake 2027 entry payment",
+      "bodyEn": "Your entry is reserved but not yet confirmed. Please complete your payment to secure your place. Entries close 30 September 2027.",
+      "subjectIt": "Completa il pagamento della tua iscrizione a Como Lake 2027",
+      "bodyIt": "La tua iscrizione è riservata ma non ancora confermata. Completa il pagamento per assicurarti il posto. Le iscrizioni chiudono il 30 settembre 2027.",
+      "defaultAudienceId": "pending-payment",
+      "channel": "email"
+    },
+    {
+      "id": "tpl-document-request",
+      "name": "Eligibility document request",
+      "subjectEn": "Action needed: upload your eligibility documents",
+      "bodyEn": "We are missing one or more eligibility documents for your entry. Please upload them from your participant portal so accreditation can proceed.",
+      "subjectIt": "Azione richiesta: carica i tuoi documenti di idoneità",
+      "bodyIt": "Mancano uno o più documenti di idoneità per la tua iscrizione. Caricali dal portale partecipanti per procedere con l'accredito.",
+      "defaultAudienceId": "incomplete-documents",
+      "channel": "both"
+    },
+    {
+      "id": "tpl-welcome",
+      "name": "Registration confirmed",
+      "subjectEn": "Welcome to Como Lake 2027 — your entry is confirmed",
+      "bodyEn": "Your entry is confirmed. We look forward to welcoming you to Como. Your competition schedule and accreditation details will follow closer to the Games.",
+      "subjectIt": "Benvenuto a Como Lake 2027 — la tua iscrizione è confermata",
+      "bodyIt": "La tua iscrizione è confermata. Non vediamo l'ora di darti il benvenuto a Como. Il programma delle gare e i dettagli dell'accredito seguiranno a ridosso dei Giochi.",
+      "defaultAudienceId": "confirmed",
+      "channel": "email"
+    },
+    {
+      "id": "tpl-schedule-update",
+      "name": "Schedule update",
+      "subjectEn": "Your competition schedule is now available",
+      "bodyEn": "Your provisional competition schedule is now available in the participant portal. Please review your session times and venues.",
+      "subjectIt": "Il tuo programma gare è ora disponibile",
+      "bodyIt": "Il tuo programma gare provvisorio è ora disponibile nel portale partecipanti. Controlla gli orari delle sessioni e le sedi.",
+      "defaultAudienceId": "all-participants",
+      "channel": "in-app"
+    }
+  ],
+  "history": {
+    "items": [
+      {
+        "id": "bcast-0003",
+        "subject": "Upload your eligibility documents",
+        "audienceId": "incomplete-documents",
+        "channel": "both",
+        "recipientCount": 110,
+        "status": "sent",
+        "sentAt": "2026-09-01T09:15:00.000Z",
+        "templateId": "tpl-document-request"
+      },
+      {
+        "id": "bcast-0002",
+        "subject": "Reminder: complete your payment by 30 September",
+        "audienceId": "pending-payment",
+        "channel": "email",
+        "recipientCount": 240,
+        "status": "sent",
+        "sentAt": "2026-08-28T14:30:00.000Z",
+        "templateId": "tpl-payment-reminder"
+      },
+      {
+        "id": "bcast-0001",
+        "subject": "Registration is now open for Como Lake 2027",
+        "audienceId": "all-participants",
+        "channel": "email",
+        "recipientCount": 1284,
+        "status": "sent",
+        "sentAt": "2026-08-20T08:00:00.000Z"
+      },
+      {
+        "id": "bcast-0004",
+        "subject": "Como Lake 2027 operations briefing — Como update",
+        "audienceId": "all-participants",
+        "channel": "email",
+        "recipientCount": 1284,
+        "status": "sent",
+        "sentAt": "2026-08-19T07:00:00.000Z"
+      },
+      {
+        "id": "bcast-0005",
+        "subject": "Your Como Lake 2027 entry payment is still open",
+        "audienceId": "pending-payment",
+        "channel": "email",
+        "recipientCount": 213,
+        "status": "sent",
+        "sentAt": "2026-08-19T08:11:00.000Z",
+        "templateId": "tpl-payment-reminder"
+      },
+      {
+        "id": "bcast-0006",
+        "subject": "Action needed: eligibility documents still missing",
+        "audienceId": "incomplete-documents",
+        "channel": "both",
+        "recipientCount": 96,
+        "status": "sent",
+        "sentAt": "2026-08-18T09:22:00.000Z",
+        "templateId": "tpl-document-request"
+      },
+      {
+        "id": "bcast-0007",
+        "subject": "Your Como Lake 2027 accreditation window is opening",
+        "audienceId": "confirmed",
+        "channel": "email",
+        "recipientCount": 871,
+        "status": "sent",
+        "sentAt": "2026-08-18T10:33:00.000Z",
+        "templateId": "tpl-welcome"
+      },
+      {
+        "id": "bcast-0008",
+        "subject": "Tennis practice courts — session times updated — Como update",
+        "audienceId": "tennis",
+        "channel": "in-app",
+        "recipientCount": 184,
+        "status": "sent",
+        "sentAt": "2026-08-17T11:44:00.000Z",
+        "templateId": "tpl-schedule-update"
+      },
+      {
+        "id": "bcast-0009",
+        "subject": "Rowing weigh-in and boat park reminder",
+        "audienceId": "rowing",
+        "channel": "in-app",
+        "recipientCount": 152,
+        "status": "sent",
+        "sentAt": "2026-08-17T12:55:00.000Z",
+        "templateId": "tpl-schedule-update"
+      },
+      {
+        "id": "bcast-0010",
+        "subject": "Como Lake 2027 operations briefing",
+        "audienceId": "all-participants",
+        "channel": "email",
+        "recipientCount": 1284,
+        "status": "sent",
+        "sentAt": "2026-08-16T13:06:00.000Z"
+      },
+      {
+        "id": "bcast-0011",
+        "subject": "Your Como Lake 2027 entry payment is still open",
+        "audienceId": "pending-payment",
+        "channel": "email",
+        "recipientCount": 213,
+        "status": "sent",
+        "sentAt": "2026-08-16T14:17:00.000Z",
+        "templateId": "tpl-payment-reminder"
+      },
+      {
+        "id": "bcast-0012",
+        "subject": "Action needed: eligibility documents still missing — Como update",
+        "audienceId": "incomplete-documents",
+        "channel": "both",
+        "recipientCount": 96,
+        "status": "sent",
+        "sentAt": "2026-08-15T15:28:00.000Z",
+        "templateId": "tpl-document-request"
+      },
+      {
+        "id": "bcast-0013",
+        "subject": "Your Como Lake 2027 accreditation window is opening",
+        "audienceId": "confirmed",
+        "channel": "email",
+        "recipientCount": 871,
+        "status": "sent",
+        "sentAt": "2026-08-15T16:39:00.000Z",
+        "templateId": "tpl-welcome"
+      },
+      {
+        "id": "bcast-0014",
+        "subject": "Tennis practice courts — session times updated",
+        "audienceId": "tennis",
+        "channel": "in-app",
+        "recipientCount": 184,
+        "status": "sent",
+        "sentAt": "2026-08-14T07:50:00.000Z",
+        "templateId": "tpl-schedule-update"
+      },
+      {
+        "id": "bcast-0015",
+        "subject": "Rowing weigh-in and boat park reminder",
+        "audienceId": "rowing",
+        "channel": "in-app",
+        "recipientCount": 152,
+        "status": "sent",
+        "sentAt": "2026-08-14T08:01:00.000Z",
+        "templateId": "tpl-schedule-update"
+      },
+      {
+        "id": "bcast-0016",
+        "subject": "Como Lake 2027 operations briefing — Como update",
+        "audienceId": "all-participants",
+        "channel": "email",
+        "recipientCount": 1284,
+        "status": "sent",
+        "sentAt": "2026-08-13T09:12:00.000Z"
+      },
+      {
+        "id": "bcast-0017",
+        "subject": "Your Como Lake 2027 entry payment is still open",
+        "audienceId": "pending-payment",
+        "channel": "email",
+        "recipientCount": 213,
+        "status": "sent",
+        "sentAt": "2026-08-13T10:23:00.000Z",
+        "templateId": "tpl-payment-reminder"
+      },
+      {
+        "id": "bcast-0018",
+        "subject": "Action needed: eligibility documents still missing",
+        "audienceId": "incomplete-documents",
+        "channel": "both",
+        "recipientCount": 96,
+        "status": "sent",
+        "sentAt": "2026-08-12T11:34:00.000Z",
+        "templateId": "tpl-document-request"
+      },
+      {
+        "id": "bcast-0019",
+        "subject": "Your Como Lake 2027 accreditation window is opening",
+        "audienceId": "confirmed",
+        "channel": "email",
+        "recipientCount": 871,
+        "status": "sent",
+        "sentAt": "2026-08-12T12:45:00.000Z",
+        "templateId": "tpl-welcome"
+      },
+      {
+        "id": "bcast-0020",
+        "subject": "Tennis practice courts — session times updated — Como update",
+        "audienceId": "tennis",
+        "channel": "in-app",
+        "recipientCount": 184,
+        "status": "sent",
+        "sentAt": "2026-08-11T13:56:00.000Z",
+        "templateId": "tpl-schedule-update"
+      },
+      {
+        "id": "bcast-0021",
+        "subject": "Rowing weigh-in and boat park reminder",
+        "audienceId": "rowing",
+        "channel": "in-app",
+        "recipientCount": 152,
+        "status": "sent",
+        "sentAt": "2026-08-11T14:07:00.000Z",
+        "templateId": "tpl-schedule-update"
+      },
+      {
+        "id": "bcast-0022",
+        "subject": "Como Lake 2027 operations briefing",
+        "audienceId": "all-participants",
+        "channel": "email",
+        "recipientCount": 1284,
+        "status": "sent",
+        "sentAt": "2026-08-10T15:18:00.000Z"
+      },
+      {
+        "id": "bcast-0023",
+        "subject": "Your Como Lake 2027 entry payment is still open",
+        "audienceId": "pending-payment",
+        "channel": "email",
+        "recipientCount": 213,
+        "status": "sent",
+        "sentAt": "2026-08-10T16:29:00.000Z",
+        "templateId": "tpl-payment-reminder"
+      },
+      {
+        "id": "bcast-0024",
+        "subject": "Action needed: eligibility documents still missing — Como update",
+        "audienceId": "incomplete-documents",
+        "channel": "both",
+        "recipientCount": 96,
+        "status": "sent",
+        "sentAt": "2026-08-09T07:40:00.000Z",
+        "templateId": "tpl-document-request"
+      },
+      {
+        "id": "bcast-0025",
+        "subject": "Your Como Lake 2027 accreditation window is opening",
+        "audienceId": "confirmed",
+        "channel": "email",
+        "recipientCount": 871,
+        "status": "sent",
+        "sentAt": "2026-08-09T08:51:00.000Z",
+        "templateId": "tpl-welcome"
+      },
+      {
+        "id": "bcast-0026",
+        "subject": "Tennis practice courts — session times updated",
+        "audienceId": "tennis",
+        "channel": "in-app",
+        "recipientCount": 184,
+        "status": "sent",
+        "sentAt": "2026-08-08T09:02:00.000Z",
+        "templateId": "tpl-schedule-update"
+      },
+      {
+        "id": "bcast-0027",
+        "subject": "Rowing weigh-in and boat park reminder",
+        "audienceId": "rowing",
+        "channel": "in-app",
+        "recipientCount": 152,
+        "status": "sent",
+        "sentAt": "2026-08-08T10:13:00.000Z",
+        "templateId": "tpl-schedule-update"
+      },
+      {
+        "id": "bcast-0028",
+        "subject": "Como Lake 2027 operations briefing — Como update",
+        "audienceId": "all-participants",
+        "channel": "email",
+        "recipientCount": 1284,
+        "status": "sent",
+        "sentAt": "2026-08-07T11:24:00.000Z"
+      },
+      {
+        "id": "bcast-0029",
+        "subject": "Your Como Lake 2027 entry payment is still open",
+        "audienceId": "pending-payment",
+        "channel": "email",
+        "recipientCount": 213,
+        "status": "sent",
+        "sentAt": "2026-08-07T12:35:00.000Z",
+        "templateId": "tpl-payment-reminder"
+      },
+      {
+        "id": "bcast-0030",
+        "subject": "Action needed: eligibility documents still missing",
+        "audienceId": "incomplete-documents",
+        "channel": "both",
+        "recipientCount": 96,
+        "status": "sent",
+        "sentAt": "2026-08-06T13:46:00.000Z",
+        "templateId": "tpl-document-request"
+      }
+    ],
+    "total": 30
+  }
+}

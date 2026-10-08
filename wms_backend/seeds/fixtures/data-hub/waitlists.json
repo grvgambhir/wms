@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "id": "a68f21d0-2bc8-41a5-823e-202700000001",
+      "registrationEntryId": "74bd5dc5-37cb-49be-8ef6-202700000001",
+      "quotaId": "b79ee2ea-ad65-43c2-b54c-202700000002",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "status": "eligible",
+      "updatedAt": "2026-09-03T08:00:00.000Z"
+    }
+  ],
+  "total": 1
+}

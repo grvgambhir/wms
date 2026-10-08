@@ -1,0 +1,86 @@
+[
+  {
+    "id": "athlete_marco_rossi",
+    "firstName": "Marco",
+    "lastName": "Rossi",
+    "nationalityCountryCode": "IT",
+    "dateOfBirth": "1985-02-11",
+    "age": 41,
+    "sportId": "sport_tennis",
+    "categoryId": "category_tennis_md_40_44",
+    "experienceLabel": "Club doubles",
+    "profileImageKey": "marcoRossi"
+  },
+  {
+    "id": "athlete_james_oneill",
+    "firstName": "James",
+    "lastName": "O'Neill",
+    "nationalityCountryCode": "IE",
+    "dateOfBirth": "1982-11-03",
+    "age": 43,
+    "sportId": "sport_tennis",
+    "categoryId": "category_tennis_md_40_44",
+    "experienceLabel": "Regional player",
+    "profileImageKey": "jamesOneill"
+  },
+  {
+    "id": "athlete_lars_nielsen",
+    "firstName": "Lars",
+    "lastName": "Nielsen",
+    "nationalityCountryCode": "DK",
+    "dateOfBirth": "1984-01-19",
+    "age": 42,
+    "sportId": "sport_tennis",
+    "categoryId": "category_tennis_md_40_44",
+    "experienceLabel": "Left-handed",
+    "profileImageKey": "larsNielsen"
+  },
+  {
+    "id": "athlete_peter_van_den_berg",
+    "firstName": "Peter",
+    "lastName": "van den Berg",
+    "nationalityCountryCode": "NL",
+    "dateOfBirth": "1983-06-30",
+    "age": 43,
+    "sportId": "sport_tennis",
+    "categoryId": "category_tennis_md_40_44",
+    "experienceLabel": "Tournament experience",
+    "profileImageKey": "peterVandenberg"
+  },
+  {
+    "id": "athlete_carlos_mendez",
+    "firstName": "Carlos",
+    "lastName": "Mendez",
+    "nationalityCountryCode": "ES",
+    "dateOfBirth": "1985-04-12",
+    "age": 41,
+    "sportId": "sport_tennis",
+    "categoryId": "category_tennis_md_40_44",
+    "experienceLabel": "Clay court specialist",
+    "profileImageKey": "carlosMendez"
+  },
+  {
+    "id": "athlete_thomas_weber",
+    "firstName": "Thomas",
+    "lastName": "Weber",
+    "nationalityCountryCode": "DE",
+    "dateOfBirth": "1984-09-08",
+    "age": 41,
+    "sportId": "sport_tennis",
+    "categoryId": "category_tennis_md_40_44",
+    "experienceLabel": "Seeking partner",
+    "profileImageKey": "thomasWeber"
+  },
+  {
+    "id": "athlete_sophie_martin",
+    "firstName": "Sophie",
+    "lastName": "Martin",
+    "nationalityCountryCode": "FR",
+    "dateOfBirth": "1983-08-22",
+    "age": 42,
+    "sportId": "sport_tennis",
+    "categoryId": "category_tennis_md_45_49",
+    "experienceLabel": "Mixed doubles background",
+    "profileImageKey": "sophieMartin"
+  }
+]

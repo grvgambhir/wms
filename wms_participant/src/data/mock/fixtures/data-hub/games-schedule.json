@@ -1,0 +1,103 @@
+{
+  "venues": [
+    {
+      "id": "ven-como-4a10-9c01-202700000501",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "name": "Tennis Club Como",
+      "city": "Como",
+      "address": "Viale Giuseppe Sinigaglia 1, 22100 Como"
+    },
+    {
+      "id": "ven-lecco-4a10-9c02-202700000502",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "name": "Lecco Rowing Basin",
+      "city": "Lecco",
+      "address": "Lungolario Isonzo, 23900 Lecco"
+    },
+    {
+      "id": "ven-varese-4a10-9c03-202700000503",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "name": "Varese Aquatic Centre",
+      "city": "Varese",
+      "address": "Via Copelli 4, 21100 Varese"
+    },
+    {
+      "id": "ven-como-4a10-9c04-202700000504",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "name": "Villa Olmo Ceremony Lawn",
+      "city": "Como",
+      "address": "Via Cantoni 1, 22100 Como"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "sch-0001-4a10-9c01-202700000601",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000001",
+      "type": "ceremony",
+      "title": "Opening ceremony",
+      "startAt": "2027-09-17T17:00:00.000Z",
+      "endAt": "2027-09-17T19:00:00.000Z",
+      "venueId": "ven-como-4a10-9c04-202700000504"
+    },
+    {
+      "id": "sch-0002-4a10-9c02-202700000602",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000001",
+      "type": "training",
+      "title": "Accredited practice — Men's Doubles",
+      "startAt": "2027-09-18T09:00:00.000Z",
+      "endAt": "2027-09-18T10:30:00.000Z",
+      "venueId": "ven-como-4a10-9c01-202700000501",
+      "court": "Court 3"
+    },
+    {
+      "id": "sch-0003-4a10-9c03-202700000603",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000001",
+      "type": "match",
+      "title": "Men's Doubles 35–39 · Round of 16",
+      "startAt": "2027-09-19T11:00:00.000Z",
+      "endAt": "2027-09-19T12:30:00.000Z",
+      "venueId": "ven-como-4a10-9c01-202700000501",
+      "court": "Court 1"
+    },
+    {
+      "id": "sch-0004-4a10-9c04-202700000604",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000001",
+      "type": "match",
+      "title": "Men's Doubles 35–39 · Quarter-final",
+      "startAt": "2027-09-21T14:00:00.000Z",
+      "endAt": "2027-09-21T15:30:00.000Z",
+      "venueId": "ven-como-4a10-9c01-202700000501",
+      "court": "Centre Court"
+    },
+    {
+      "id": "sch-0005-4a10-9c05-202700000605",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000001",
+      "type": "social",
+      "title": "Participants' evening — Lake Como terrace",
+      "startAt": "2027-09-22T19:30:00.000Z",
+      "endAt": "2027-09-22T22:00:00.000Z",
+      "venueId": "ven-como-4a10-9c04-202700000504"
+    },
+    {
+      "id": "sch-0006-4a10-9c06-202700000606",
+      "eventId": "3d6f0f8a-64c7-4a40-9d31-202709170001",
+      "athleteId": "693edf31-739e-4f28-96c4-202700000001",
+      "sportId": "9db23735-a6df-4d62-8f0c-202700000001",
+      "type": "ceremony",
+      "title": "Closing ceremony",
+      "startAt": "2027-09-26T18:00:00.000Z",
+      "endAt": "2027-09-26T20:00:00.000Z",
+      "venueId": "ven-como-4a10-9c04-202700000504"
+    }
+  ]
+}
